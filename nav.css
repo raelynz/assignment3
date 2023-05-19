@@ -1,0 +1,71 @@
+nav{
+    height: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff; 
+  z-index: 999; 
+}
+
+nav .website_icon{
+    padding-bottom: 1%;
+    width: 291.07px;
+    height: 43.59px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.search_bar {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://github.com/raelynz/assignment3/assets/126759657/a2571a38-f4d8-4964-93d8-dc52ba86036c");
+    background-repeat: no-repeat;
+    background-size: 3% auto;
+    background-position: 20px center;
+    width: 671px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search_bar input {
+    position: absolute;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #333;
+  left:calc(20px+50px);
+  }
+
+.search_bar::placeholder {
+    color: #8C8C8C;
+    font-weight: light;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: calc(20px + 40px);
+    transform: translateY(-50%);
+}
+
+nav .nav_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    width: 268px;
+    height: 46px;
+    left: 1140px;
+    top: 20px;
+}
+
+.nav_icons img {
+    width: 28px;
+    height: 28px;
+  }

@@ -1,0 +1,38 @@
+footer{
+    margin-top:10vh;
+    background-color: black;
+}
+.Text{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    color:white;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 38px;
+    color:white;
+}
+
+.Bottom_Part_Footer{
+    margin-top:5vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Brand_Name{
+    margin-left:5%;
+}
+
+.Pay_Method{
+    margin-right:5%;
+}

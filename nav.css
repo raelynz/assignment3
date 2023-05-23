@@ -1,71 +1,80 @@
-nav{
-    height: 12.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
+nav {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  background-color: #fff; 
-  z-index: 999; 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; 
+  z-index: 9999; 
+}
+nav > .Website_Icon {
+  padding-top: 1%;
+  width: 20%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 3%;
 }
 
-nav .website_icon{
-    padding-bottom: 1%;
-    width: 291.07px;
-    height: 43.59px;
-    margin-left:auto;
-    margin-right: auto;
+nav > .Website_Icon > a> img {
+  width: 100%;
+  height: auto;
+  max-width: 20vw; 
+  max-height: 20vw; 
 }
 
-.search_bar {
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url("https://github.com/raelynz/assignment3/assets/126759657/a2571a38-f4d8-4964-93d8-dc52ba86036c");
-    background-repeat: no-repeat;
-    background-size: 3% auto;
-    background-position: 20px center;
-    width: 671px;
-    height: 40px;
-    background-color: #F5F5F5;
-    border-radius: 29px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .search_bar input {
-    position: absolute;
+.search-bar {
+  margin-left: 3%;
+  margin-right: 5%;
+  background-color: #F5F5F5;
+  border-radius: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.5vh;
+  width: 60%;
+  padding: 0 2%;
+}
+
+.search-bar::placeholder {
+  font-size: 1.5vh;
+}
+
+.search-input {
   border: none;
   background-color: transparent;
-  font-size: 20px;
+  font-size: 2vh;
   color: #333;
-  left:calc(20px+50px);
-  }
-
-.search_bar::placeholder {
-    color: #8C8C8C;
-    font-weight: light;
-    font-size: 15px;
-    position: absolute;
-    top: 50%;
-    left: calc(20px + 40px);
-    transform: translateY(-50%);
+  flex: 1;
+  outline: none;
 }
 
-nav .nav_icons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left:auto;
-    margin-right: auto;
-    width: 268px;
-    height: 46px;
-    left: 1140px;
-    top: 20px;
+.search-icon {
+  width: 2vh;
+  height: 2vh;
+  margin-right: 1vw;
+  user-select: none;
+}
+
+nav .nav_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 5%;
+  width: 15vw;
+  height: 5vh;
+  top: 1vh;
 }
 
 .nav_icons img {
-    width: 28px;
-    height: 28px;
-  }
+  width: 2.4vh;
+  height: 2.4vh;
+}

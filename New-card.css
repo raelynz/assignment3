@@ -1,0 +1,137 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:35%;
+    margin-right:35%;
+  }
+h1{
+    display:flex;
+    justify-content:center;
+    font-family: 'Inter', Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vh;
+    line-height: 6vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+h2{
+    font-family: 'Inter', Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+}
+
+*::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #9CA4AB;
+}
+
+.Card_Num_Sec{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-top:10%;
+}
+
+.Card_Number{
+    border: 0.5px solid #000000;
+    width:100%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.Card_Holder_Sec{
+    margin-top:1vh;
+}
+
+.Card_Holder{
+    border: 0.5px solid #000000;
+    width:100%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.CVV_Sec{
+    margin-top:1vh;
+}
+
+.CVV{
+    border: 0.5px solid #000000;
+    width:100%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.ED_Sec{
+    display:flex;
+    flex-direction:column;
+    margin-top:1vh;
+}
+
+.ED_Enter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1vw;
+}
+
+.ED1{
+    border: 0.5px solid #000000;
+    width:70%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.ED2{
+    border: 0.5px solid #000000;
+    width:70%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.NA_Button {
+    display: flex;
+    margin-top: 30%;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .NA_Button img {
+    vertical-align: middle;
+  }
+  
+  .NA_Button a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #000000;
+  }
+  
+  .NA_Continue {
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #000000;
+    border-radius: 3vh;
+    margin-left: 15vw;
+  }
+  
+  .NA_Continue a {
+    color: #FFFFFF;
+  }
+  

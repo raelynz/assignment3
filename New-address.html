@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="countries.js"></script>
+    <script src="New-address.js"></script>
+    <link rel="stylesheet" href="New-address.css"/>
+</head>
+<body>
+    <main>
+        <div class="line"></div>
+        <!-- Title -->
+        <h1>
+            Add New Address
+        </h1>
+        <section class="Enter_Info">
+        
+        <!-- Contact Section -->
+            <section class="Contact_Section">
+                <h2>
+                    Contact
+                </h2>
+                <input type="email" class="Contact" placeholder="Email">
+            </section>
+        
+        <!-- Checkbox section -->
+            <section class="Checkbox_Section"> 
+            <h2>
+                Delivery method
+            </h2>
+            <div class="Checkbox_Options">
+            <div class="Checkbox_Op1">
+                <input type="checkbox" class="Checkoption" value="1">
+                <img src="https://github.com/raelynz/assignment3/assets/126759657/13919306-f7b2-4f1d-bafb-526ee683a19e" alt="NA_Icon1">
+                <p>Ship</p><br>
+            </div>
+            <div class="Checkbox_Op2">
+                <input type="checkbox" class="Checkoption" value="2">
+                <img src="https://github.com/raelynz/assignment3/assets/126759657/c2902666-6b8f-4d3c-ac42-a1ec8e35f793" alt="NA_Icon2">
+                <p>Pickup</p><br>
+            </div>
+            </div>
+            </section>
+            
+        <!-- Shipping Address Section -->
+            <section class="Shipping_Address_Section">
+                <h2>
+                Shipping address
+                </h2>
+                <div class="NA_Name">
+                    <input type="text" class="NA_First_Name" placeholder="First Name">
+                    <input type="text" class="NA_Last_Name" placeholder="Last Name">
+                </div>
+                    
+                
+                <select onchange="print_state('state', this.selectedIndex);" id="country" name="country"></select>
+                <select name="state" id="state">
+                    <option value="">Select State</option>
+                </select>
+                <div class="NA_CTAP">
+                    <input type="text" class="NA_City" placeholder="City">
+                    <input type="number" class="NA_Postcode" maxlength="4" placeholder="Postcode">
+                </div>
+
+                <input type="text" class="NA_Address" placeholder="Address">
+                <input type="number" class="NA_Phonenum" placeholder="Phone">
+            </section>
+            <section class="NA_Button">
+                <a href="#Shopping_Cart">
+                  <img src="https://github.com/raelynz/assignment3/assets/126759657/882b82d6-4401-4d38-9a45-340988b33a54" alt="Return_to_cart_icon">
+                  Return to cart
+                </a>
+                <button class="NA_Continue">
+                  <a href="#Successful_Paid">Continue</a>
+                </button>
+            </section>
+            </section>
+            
+            
+            
+        
+    </main>
+    <script>
+        print_country("country");
+    </script>
+</body>
+</html>

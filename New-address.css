@@ -1,0 +1,212 @@
+h1{
+    display:flex;
+    justify-content:center;
+    font-family: 'Inter', Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5vh;
+    line-height: 6vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+h2{
+    font-family: 'Inter', Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+}
+
+*::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #9CA4AB;
+}
+
+.Enter_Info{
+    margin-top:5%;
+    margin-left:10%;
+}
+
+.Contact{
+    border: 0.5px solid #000000;
+    width:30%;
+    padding:0.75vw;
+    border-radius:2vh;
+}
+
+.Checkbox_Section{
+    margin-top:5vh;
+}
+
+.Checkbox_Options{
+    display:flex;
+    flex-direction:row;
+}
+
+.Checkbox_Op1{
+    display:flex;
+    align-items: center;
+    width:13.5%;
+    border:solid 0.5px #000000;
+    border-radius: 2vh;
+    padding-left:1%;
+}
+.Checkbox_Op1 img{
+    width:15%;
+    margin-left:0.5vw;
+}
+.Checkbox_Op1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #9CA4AB;
+    margin-left:0.5vw;
+}
+
+.Checkbox_Op2{
+    display:flex;
+    align-items: center;
+    width:13.5%;
+    border:solid 0.5px #000000;
+    border-radius: 2vh;
+    padding-left:1%;
+    margin-left:2%;
+}
+.Checkbox_Op2 img{
+    width:15%;
+    margin-left:0.5vw;
+}
+.Checkbox_Op2 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #9CA4AB;
+    margin-left:0.5vw;
+}
+
+.Shipping_Address_Section{
+    margin-top:3vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.NA_First_Name{
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 2vh;
+    padding:0.75vw;
+    width:13%;
+}
+
+.NA_Last_Name{
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 2vh;
+    padding:0.75vw;
+    margin-left:1.75%;
+    width:13%;
+}
+
+select{
+    width:31.5%;
+    border-radius: 2vh;
+    padding:0.75vw;
+    margin-top:1.5%;
+}
+
+.NA_CTAP{
+    margin-top:1.5%;
+
+}
+.NA_City{
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 2vh;
+    padding:0.75vw;
+    width:13%;
+}
+
+.NA_Postcode{
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 2vh;
+    padding:0.75vw;
+    margin-left:1.75%;
+    width:13%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+.NA_Address{
+    border: 0.5px solid #000000;
+    width:30%;
+    padding:0.75vw;
+    border-radius:2vh;
+    margin-top:1.5%;
+}
+
+.NA_Phonenum{
+    border: 0.5px solid #000000;
+    width:30%;
+    padding:0.75vw;
+    border-radius:2vh;
+    margin-top:1.5%;
+}
+
+.NA_Button {
+    margin-top: 5%;
+  }
+  
+  .NA_Button img {
+    vertical-align: middle;
+  }
+  
+  .NA_Button a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vh;
+    line-height: 22px;
+    color: #000000;
+  }
+  
+  .NA_Continue {
+    width: 6%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background: #000000;
+    border-radius: 3vh;
+    margin-left: 15vw;
+    margin-bottom:5%;
+  }
+  
+  .NA_Continue a {
+    color: #FFFFFF;
+  }
+
+  .line {
+    position: absolute;
+    top: 0;
+    bottom: 10%;
+    left: 50%;
+    width: 0.25vh;
+    background-color: black;
+    transform: translateY(25%);
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  

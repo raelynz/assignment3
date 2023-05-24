@@ -1,0 +1,355 @@
+@media (max-width:499px){
+    /* top part of page */
+      .Homepage_Sec {
+        margin-top:2%;
+        margin-bottom: 2%;
+      }
+      
+      .Homepage_Content{
+        display:flex;
+        flex-direction:row;
+      }
+      
+      .Homepage_Content img {
+        width: 70%;
+        height: auto;
+      }
+      
+      /* top part of page:welcome to carol house */
+      .WCTCH {
+        height:auto;
+        background: rgb(255, 238, 211);
+        padding-right: 3vh;
+        width:30%;
+      }
+      
+      .WCTCH_Element{
+        display:flex;
+        flex-direction:column;
+        margin-top:5%;
+        margin-bottom:5%;
+      }
+      
+      /* top part of page:shop now button */
+      .Shop_Now {
+        width: 60%; 
+        height: auto; 
+        border-radius: 24vh;
+        font-weight: bold;
+        font-size: 3vw; 
+        line-height: 1;
+        text-align: center;
+        background-color: #A58172;
+        margin-left:10%;
+        padding-top:1.25vh;
+        padding-bottom:1.25vh;
+      }
+      
+      .Shop_Now a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      
+      .Shop_Now:hover {
+        color: #ffffff;
+        width: 60%; 
+        height: auto; 
+        border-radius: 24vh;
+        background-color: #81675C;
+      }
+      
+      /* Recently viewed section */
+      .Recently_Viewed {
+        margin-top: 1vh;
+      }
+      
+      .Recently_Viewed_Title {
+        margin-left:0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .RV_Images {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1vw;
+        margin-top: 1vh;
+      }
+      
+      .RV_Images img {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        margin-right: 1vw;
+      }
+      
+      /* Hot Deals Section */
+      .Hot_Deals {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        margin-top: 10vh;
+      }
+      
+      .Hot_Deals > img {
+        position: absolute;
+        align-items: center;
+        width: 100%; 
+        height: auto; 
+      }
+      
+      /* Popular Product Section */
+      .Popular_Product {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        margin-top: 5vh;
+      }
+      .Popular_Product_Title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .Product_Info {
+        display: flex;
+        justify-content:center;
+        gap: 3vw;
+      }
+      
+      .Popular_Product > .Product_Small {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5%;
+      }
+      
+      .fa-star{
+        width:15%
+      }
+    
+      .Rating_Small{
+        margin-bottom:5%;
+      }
+      
+    
+      .Product_Image_Detail img {
+        max-width: 70%;
+        height: auto;
+      }
+      
+      .Product_Title_Small {
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vh;
+        margin-top: auto;
+        margin-bottom:5%;
+      }
+    
+      .See_All_Popular {
+        background: none;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 30px;
+        color: #8C8C8C;
+      }
+      
+      .Product_Price_Small {
+        font-family: 'Abhaya Libre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5vh;
+        margin-bottom: auto;
+      }
+      
+      .Rating_Small{
+        width:50%;
+      }
+      
+      .checked {
+        color: orange;
+      }
+      
+      /* Plan by space part */
+      .Plan_By_Space {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        margin-top: 10vh;
+      }
+      
+      .Plan_By_Space_Button{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top:5vh;
+      }
+      
+      .Plan_By_Space_Button > button{
+        font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5vh;
+      line-height: 1.5vh;
+      margin:auto;
+      background-color: #FFFFFF;
+      border: 1% solid #262626;
+      border-radius: 20vh;
+      padding: 1vh 1.5vw;
+      }
+      
+      .Plan_By_Space_Button > button:hover{
+        background-color: #000000;
+        color:#FFFFFF;
+      }
+      
+      .Carousel {
+        margin-top:2.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .Carousel > img {
+        width: 100%;
+        height:auto;
+      }
+      
+      /*Visit us part*/
+      .Visit_Us {
+        display:flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 5vh;
+      }
+      
+      .Visit_Us_Description{
+        width:100%;
+        height:auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.5vh;
+        line-height: 1.75vh;
+      }
+      
+      .Find_Us{
+        border:none;
+        width:15vw;
+        height:5vh;
+        background: #A58172;
+        border-radius: 30px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75vw;
+        line-height: 1.75vh;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      
+      .Find_Us:hover{
+        background-color: #81675C;
+      }
+      
+      .Visit_Us_Content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      .Visit_Us_Img > img{
+        margin-right:0;
+        margin-left:10%;
+        width:70%;
+        height:auto;
+      }
+      
+      .horizontal-line {
+        border: none;
+        border-top: 1px solid black;
+        margin-top: 10vh;
+      }
+      
+      /* Stay In Touch Part */
+      .Stay_In_Touch{
+        margin-top:2vh;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .Stay_In_Touch h4{
+        display:flex;
+        justify-content: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.75vh;
+        line-height: 2vh;
+      }
+      
+      .Stay_In_Touch .Stay_In_Touch_Description{
+        display:flex;
+        justify-content: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2vh;
+        line-height: 2vh;
+      }
+      
+      .SIT_Button{
+        margin-left:20%;
+        margin-right:20%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+      }
+      
+      .SIT_First_Name{
+        border:solid 1px;
+        background-color: #FFFFFF;
+        width: 15vw;
+        height: 4vh;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.3vh;
+        line-height: 2vh;
+      }
+      
+      .SIT_Email{
+        border:solid 1px;
+        background-color: #FFFFFF;
+        width: 15vw;
+        height: 4vh;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.3vh;
+        line-height: 2vh;
+      }
+      
+      .SIT_Sign_Up{
+        border:solid 1px;
+        border-color:#FFFFFF;
+        background-color: #000000;
+        color:white;
+        width: 15vw;
+        height: 4vh;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.3vh;
+        line-height: 2vh;
+      }
+      }

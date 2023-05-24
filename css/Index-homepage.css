@@ -2,9 +2,6 @@ body{
     background: #FFFFFF;
 }
 
-* {
-  outline: 1px solid red;
-}
 @media (min-width: 1201px){
 .See_All {
     margin-right:5%;

@@ -1,33 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300&display=swap');
+@import url(/css/Index-homepage.css);
+
 @media (max-width:499px){
     /* top part of page */
       .Homepage_Sec {
-        margin-top:2%;
+        width:100%;
+        margin-top:40%;
         margin-bottom: 2%;
       }
       
       .Homepage_Content{
+        position:relative;
         display:flex;
         flex-direction:row;
       }
       
       .Homepage_Content img {
-        width: 70%;
+        width: 100%;
         height: auto;
       }
       
       /* top part of page:welcome to carol house */
       .WCTCH {
+        position:absolute;
         height:auto;
-        background: rgb(255, 238, 211);
+        background: rgb(255, 238, 211,0.7);
         padding-right: 3vh;
-        width:30%;
+        width:40%;
+        height:100%;
+        top:0;
+        right:0;
       }
       
       .WCTCH_Element{
         display:flex;
         flex-direction:column;
-        margin-top:5%;
-        margin-bottom:5%;
+        margin-top:25%;
+        margin-bottom:25%;
       }
       
       /* top part of page:shop now button */
@@ -79,8 +88,8 @@
       }
       
       .RV_Images img {
-        width: 10vw;
-        height: 10vw;
+        width: 15vw;
+        height: 15vw;
         border-radius: 50%;
         margin-right: 1vw;
       }
@@ -88,24 +97,22 @@
       /* Hot Deals Section */
       .Hot_Deals {
         position: relative;
-        left: 5%;
-        width: 90%;
-        margin-top: 10vh;
+        width: 100%;
+        margin-top: 1vh;
       }
       
       .Hot_Deals > img {
         position: absolute;
         align-items: center;
-        width: 100%; 
+        width: 95%; 
         height: auto; 
       }
       
       /* Popular Product Section */
       .Popular_Product {
         position: relative;
-        left: 5%;
-        width: 90%;
-        margin-top: 5vh;
+        width: 95%;
+        margin-top: 1vh;
       }
       .Popular_Product_Title {
         display: flex;
@@ -120,19 +127,20 @@
       }
       
       .Popular_Product > .Product_Small {
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 5%;
       }
       
-      .fa-star{
-        width:15%
-      }
-    
       .Rating_Small{
+        width:100%;
         margin-bottom:5%;
+      }
+      
+      .Rating_Small img{
+        width:90%;
       }
       
     

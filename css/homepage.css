@@ -2,40 +2,6 @@
 @import url(/css/Index-homepage.css);
 
 @media (min-width: 1001px){
-/* heading */
-h1 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4vw;
-  line-height: 1;
-  color: #795D36;
-  margin-top: 1vh;
-  margin-bottom: 15px;
-  transform: translate(10%, -10%);
-}
-
-h2 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.5vw;
-  line-height: 1;
-  color: #795D36;
-  margin-top: 2vh;
-  margin-bottom: 0;
-  transform: translate(10%, -20%);
-}
-
-h3 {
-  font-family: 'Abhaya Libre';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2vw;
-  line-height: 20px;
-  color: #262626;
-}
-
 /* top part of page */
 .Homepage_Sec {
   margin-top:15vh;
@@ -200,12 +166,8 @@ h3 {
   margin-bottom:5%;
 }
 
-.fa-star{
-  width:15;
-}
-
-.checked {
-  color: orange;
+.Rating_Small img{
+  width:90%;
 }
 
 /* Plan by space part */
@@ -385,11 +347,10 @@ padding: 2vh 2vw;
 }
 }
 
-
 @media (min-width:500px) and (max-width: 1000px){
 /* top part of page */
   .Homepage_Sec {
-    margin-top:10vh;
+    margin-top:30%;
     margin-bottom: 5vh;
   }
   
@@ -516,12 +477,13 @@ padding: 2vh 2vw;
     margin-bottom: 5%;
   }
   
-  .fa-star{
-    width:15%
-  }
-
   .Rating_Small{
+    width:100%;
     margin-bottom:5%;
+  }
+  
+  .Rating_Small img{
+    width:90%;
   }
   
 

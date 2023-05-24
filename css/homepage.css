@@ -410,11 +410,12 @@ padding: 2vh 2vw;
   
   /* Recently viewed section */
   .Recently_Viewed {
+    width:90%;
+    margin-left:5%;
     margin-top: 2vh;
   }
   
   .Recently_Viewed_Title {
-    margin-left:5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -424,7 +425,7 @@ padding: 2vh 2vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 2vw;
+    gap: 1vw;
     margin-top: 1vh;
   }
   

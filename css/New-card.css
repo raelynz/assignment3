@@ -1,5 +1,6 @@
 @import url("Index-for-entering.css");
-body {
+@media (min-width: 1300px){
+  body {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -7,74 +8,52 @@ body {
     margin-right:35%;
   }
 
-.Card_Num_Sec{
-    display:flex;
-    justify-content:center;
-    flex-direction: column;
-    margin-top:10%;
-}
-
-.Card_Number{
-    border: 0.5px solid #000000;
-    width:100%;
-    padding:0.75vw;
-    border-radius:2vh;
-}
-
-.Card_Holder_Sec{
-    margin-top:1vh;
-}
-
-.Card_Holder{
-    border: 0.5px solid #000000;
-    width:100%;
-    padding:0.75vw;
-    border-radius:2vh;
-}
-
-.CVV_Sec{
-    margin-top:1vh;
-}
-
-.CVV{
-    border: 0.5px solid #000000;
-    width:100%;
-    padding:0.75vw;
-    border-radius:2vh;
-}
-
-.ED_Sec{
-    display:flex;
-    flex-direction:column;
-    margin-top:1vh;
-}
-
-.ED_Enter{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:1vw;
-}
-
-.ED1{
-    border: 0.5px solid #000000;
-    width:70%;
-    padding:0.75vw;
-    border-radius:2vh;
-}
-
-.ED2{
-    border: 0.5px solid #000000;
-    width:70%;
-    padding:0.75vw;
-    border-radius:2vh;
-}
-
+  .Card_Num_Sec,
+  .Card_Holder_Sec,
+  .CVV_Sec,
+  .ED_Sec {
+      margin-top: 1vh;
+      border: 0.5px solid #000000;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .Card_Number,
+  .Card_Holder,
+  .CVV,
+  .ED1,
+  .ED2 {
+      border: 0.5px solid #000000;
+      padding: 0.75vw;
+      border-radius: 2vh;
+  }
+  
+  .ED_Enter {
+      border: 0.5px solid #000000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 1vw;
+  }
+  
+  .Card_Num_Sec,
+  .Card_Holder_Sec,
+  .CVV_Sec,
+  .ED_Sec,
+  .ED1,
+  .ED2 {
+      flex: 1;
+  }
+  
+  .ED_Enter {
+      flex: 2;
+  }
+  
 .NA_Button {
     display: flex;
-    margin-top: 30%;
+    margin-top: 20%;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
   }
   
   .NA_Button img {
@@ -89,6 +68,7 @@ body {
     font-size: 2vh;
     line-height: 2vh;
     color: #000000;
+    width:auto;
   }
   
   .NA_Continue {
@@ -97,10 +77,11 @@ body {
     padding-bottom: 1%;
     background: #000000;
     border-radius: 3vh;
-    margin-left: 15vw;
+    margin-left:12vw;
   }
   
   .NA_Continue a {
     color: #FFFFFF;
   }
   
+}

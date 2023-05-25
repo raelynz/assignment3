@@ -1,21 +1,17 @@
 @media (min-width: 1001px) {
   nav {
-    height: 10%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff; 
-    z-index: 9999; 
+    background-color: #ffffff;
+    z-index: 9999;
   }
+  
   nav > .Website_Icon {
     padding-top: 1%;
     width: 20%;
@@ -45,6 +41,8 @@
   }
   
   .search-bar::placeholder {
+    display:flex;
+    justify-content: flex-start;
     font-size: 1.5vh;
   }
   

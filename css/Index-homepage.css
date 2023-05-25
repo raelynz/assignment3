@@ -2,7 +2,7 @@ body{
     background: #FFFFFF;
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1001px){
 .See_All {
     margin-right:5%;
     background: none;
@@ -49,7 +49,7 @@ body{
   }
 }
 
-@media (min-width:500px) and (max-width: 1200px){
+@media (min-width:500px) and (max-width: 1000px){
     .See_All{
         margin-right:5%;
         background: none;
@@ -98,7 +98,6 @@ body{
 
 @media (max-width: 499px){
     .See_All{
-        margin-right:5%;
         background: none;
         border: none;
         font-family: 'Poppins';

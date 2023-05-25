@@ -80,14 +80,14 @@
       }
       
       .RV_Images {
-        overflow: auto; /* Add horizontal overflow */
-        white-space: nowrap; /* Prevent wrapping of elements */
+        overflow: auto;
+        white-space: nowrap;
         display: flex;
-        justify-content: flex-start; /* Adjust the alignment based on your needs */
+        justify-content: flex-start;
         align-items: center;
         gap: 2vw;
         margin-top: 1vh;
-        padding-bottom: 1vh; /* Add some padding to the bottom to prevent the horizontal scrollbar from covering the images */
+        padding-bottom: 1vh;
       }
       
       .RV_Images img {
@@ -124,26 +124,25 @@
       }
       
       .Product_Info {
-        overflow: auto; /* Add horizontal overflow */
-        white-space: nowrap; /* Prevent wrapping of elements */
+        overflow: auto;
+        white-space: nowrap;
         display: flex;
         justify-content:flex-start;
         gap: 3vw;
       }
       
-      .Popular_Product > .Product_Small {
+      .Product_Small {
         width: 30vw;
-        height:30vw;
+        height:60vw;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 5%;
       }
       
       .Rating_Small{
         width:20vw;
         height:auto;
-        margin-bottom:5%;
       }
       
       .Rating_Small img{
@@ -157,12 +156,15 @@
       }
       
       .Product_Title_Small {
+        white-space: initial;
+        width: 30vw;
+        height: 7.5vh;
+        overflow: hidden;
+        word-break: break-word; /* Add word-break property to allow breaking long words */
         font-family: 'Abhaya Libre';
         font-style: normal;
         font-weight: 700;
-        font-size: 3vh;
-        margin-top: auto;
-        margin-bottom:5%;
+        font-size: 2vh;
       }
     
       .See_All_Popular {
@@ -171,7 +173,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 2vw;
+        font-size: 3vw;
         line-height: 30px;
         color: #8C8C8C;
       }
@@ -181,18 +183,13 @@
         font-style: normal;
         font-weight: 700;
         font-size: 1.5vh;
-        margin-bottom: auto;
-      }
-      
-      .Rating_Small{
-        width:50%;
       }
       
       /* Plan by space part */
       .Plan_By_Space {
         position: relative;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 2vh;
       }
       
       .Plan_By_Space_Button{
@@ -248,7 +245,7 @@
         font-size: 1.5vh;
         line-height: 1.5vh;
       }
-      
+
       .Find_Us{
         border:none;
         width:20vw;
@@ -262,7 +259,7 @@
         line-height: 1.75vh;
         text-align: center;
         color: #FFFFFF;
-        margin-left:40%;
+        margin-left:0%;
         margin-top:5%;
       }
       
@@ -273,19 +270,22 @@
       .Visit_Us_Content {
         display: flex;
         flex-direction: column;
+        align-items: center;
       }
       
       .Visit_Us_Img > img{
-        margin-right:20%;
-        margin-left:25%;
-        width:50%;
+        display:none;
+        margin-top:5%;
+        margin-right:10%;
+        margin-left:15%;
+        width:70%;
         height:auto;
       }
       
       .horizontal-line {
         border: none;
         border-top: 1px solid black;
-        margin-top: 2vh;
+        margin-top: 4vh;
       }
       
       /* Stay In Touch Part */

@@ -177,13 +177,13 @@ select{
   }
 }
 
-@media (min-width:400px)and(max-width: 1000px){
+@media (min-width:400px) and (max-width: 1000px){
     body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left:5%;
-        margin-right:5%;
+        margin-left:10%;
+        margin-right:10%;
       }
     .Enter_Info{
         width:100%;
@@ -211,10 +211,10 @@ select{
         width:50%;
         border:solid 0.5px #000000;
         border-radius: 2vh;
-        padding-left:1%;
+        padding-left:5%;
     }
     .Checkbox_Op1 img{
-        width:25%;
+        width:20%;
         margin-left:0.5vw;
     }
     .Checkbox_Op1 p{
@@ -233,11 +233,11 @@ select{
         width:50%;
         border:solid 0.5px #000000;
         border-radius: 2vh;
-        padding-left:1%;
+        padding-left:5%;
         margin-left:4%;
     }
     .Checkbox_Op2 img{
-        width:25%;
+        width:20%;
         margin-left:0.5vw;
     }
     .Checkbox_Op2 p{
@@ -261,60 +261,65 @@ select{
         border: 0.5px solid #000000;
         border-radius: 2vh;
         padding:1.25vw;
-        width:46%;
+        width:34vw;
     }
     
     .NA_Last_Name{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
-        margin-left:1%;
-        width:46%;
+        padding:1.25vw;
+        margin-left:2%;
+        width:34vw;
     }
     
     select{
         width:100%;
         border-radius: 2vh;
-        padding:0.75vw;
-        margin-top:2%;
+        padding:1.25vw;
+        margin-top:4%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vh;
+        line-height: 1vh;
+        color: #9CA4AB;
     }
     
     .NA_CTAP{
-        margin-top:2%;
-    
+        margin-top:4%;
     }
     .NA_City{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
-        width:46%;
+        padding:1.25vw;
+        width:35vw;
     }
     
     .NA_Postcode{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
-        margin-left:1%;
-        width:46%;
+        padding:1.25vw;
+        margin-left:2%;
+        width:35vw;
     }
     
     .NA_Address{
         border: 0.5px solid #000000;
         width:97%;
-        padding:0.75vw;
+        padding:1.25vw;
         border-radius:2vh;
-        margin-top:1.5%;
+        margin-top:4%;
     }
     
     .NA_Phonenum{
         border: 0.5px solid #000000;
         width:97%;
-        padding:0.75vw;
+        padding:1.25vw;
         border-radius:2vh;
-        margin-top:1.5%;
+        margin-top:4%;
     }
     
     .NA_Button {
@@ -338,8 +343,8 @@ select{
       
       .NA_Continue {
         width: 30%;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         background: #000000;
         border-radius: 3vh;
         margin-left: 20vw;
@@ -359,18 +364,18 @@ select{
     body {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        margin-left:15%;
-        margin-right:15%;
+        width:95%;
       }
     .Enter_Info{
-        width:100%;
+        margin-top:10%;
     }
     
     .Contact{
         border: 0.5px solid #000000;
-        width:97%;
-        padding:0.75vw;
+        width:95%;
+        padding:1.5vw;
         border-radius:2vh;
     }
     
@@ -438,65 +443,71 @@ select{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
-        width:46%;
+        padding:1.5vw;
+        width:44%;
     }
     
     .NA_Last_Name{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
+        padding:1.5vw;
         margin-left:1%;
-        width:46%;
+        width:44%;
     }
     
     select{
         width:100%;
         border-radius: 2vh;
-        padding:0.75vw;
-        margin-top:2%;
+        padding:1.5vw;
+        margin-top:5%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vh;
+        line-height: 1vh;
+        color: #9CA4AB;
     }
     
     .NA_CTAP{
-        margin-top:2%;
+        margin-top:5%;
     
     }
     .NA_City{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
-        width:46%;
+        padding:1.5vw;
+        width:44%;
     }
     
     .NA_Postcode{
         background: #FFFFFF;
         border: 0.5px solid #000000;
         border-radius: 2vh;
-        padding:0.75vw;
+        padding:1.5vw;
         margin-left:1%;
-        width:46%;
+        width:44%;
     }
     
     .NA_Address{
         border: 0.5px solid #000000;
-        width:97%;
-        padding:0.75vw;
+        width:95%;
+        padding:1.5vw;
         border-radius:2vh;
-        margin-top:1.5%;
+        margin-top:5%;
     }
     
     .NA_Phonenum{
         border: 0.5px solid #000000;
-        width:97%;
-        padding:0.75vw;
+        width:95%;
+        padding:1.5vw;
         border-radius:2vh;
-        margin-top:1.5%;
+        margin-top:5%;
     }
     
     .NA_Button {
-        margin-top: 10%;
+        margin-top: 20%;
       }
       
       .NA_Button img {
@@ -520,7 +531,7 @@ select{
         padding-bottom: 0.5%;
         background: #000000;
         border-radius: 3vh;
-        margin-left: 20vw;
+        margin-left: 30vw;
         margin-bottom:5%;
       }
       

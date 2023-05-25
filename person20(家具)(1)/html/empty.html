@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H</title>
+    <link rel="stylesheet" href="../css/empty.css">
+</head>
+<header>
+    <div class="logo">
+        <img src="../images/logo.jpg" alt="">
+    </div>
+    <div class="search">
+        <button type="button"></button>
+        <input type="text" placeholder="what are you looking for?">
+    </div>
+    <nav>
+        <ul>
+            <li><button type="button"><img src="../images/shopCar.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/user.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/news.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/living.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/list.png" alt=""></button></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section class="selected-show">
+        <h1>Shopping cart</h1>
+        <div class="shoping">
+            <img src="../images/shopcar4.png" alt="">
+        </div>
+        <p>Your shoping cart is empty</p>
+        <p>Fortunately,there's an easy solution.</p>
+        <a href="../index.html">Go Shoping</a>
+    </section>
+</body>
+<script>
+    var search = document.querySelector('.search input')
+    search.addEventListener('click',function(){
+        location.href = './fram.html'
+    })
+</script>
+</html>

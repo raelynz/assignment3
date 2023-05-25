@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H</title>
+    <link rel="stylesheet" href="../css/chair.css">
+</head>
+<header>
+    <div class="logo">
+        <img src="../images/logo.jpg" alt="">
+    </div>
+    <div class="search">
+        <button type="button"></button>
+        <input type="text" placeholder="what are you looking for?">
+    </div>
+    <nav>
+        <ul>
+            <li><button class="shopcar" type="button"><img src="../images/shopCar.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/user.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/news.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/living.png" alt=""></button></li>
+            <li><button type="button"><img src="../images/list.png" alt=""></button></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <section class="selected-show">
+        <h1>Showing matches for "<span>Chair</span>"</h1>
+    </section>
+    <section class="main-show">
+        <div class="left-show">
+            <div class="left-type">
+                <div class="left-type-top" index="0"><img src="../images/drop.png" alt=""><h3>Chair Type:</h3></div>
+                <ul>
+                    <li>
+                        <button class="checkedButton" id="all"></button>
+                        <label for="all">All<span>(398)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="wing"></button>
+                        <label for="wing">Living room Chair<span>(20)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="wood"></button>
+                        <label for="wood">Wing Chair<span>(38)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="live"></button>
+                        <label for="live">Swivel Chair<span>(150)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="power"></button>
+                        <label for="power">Wood Chair<span>(190)</span></label>
+                    </li>
+                </ul>
+                <div class="left-type-top" index="1"><img src="../images/drop.png" alt=""><h3>Brand:</h3></div>
+                <ul>
+                    <li>
+                        <button class="checkedButton" id="all"></button>
+                        <label for="all">All<span>(398)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="wing"></button>
+                        <label for="wing">Craftmaster<span>(30)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="wood"></button>
+                        <label for="wood">Hooker<span>(45)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="live"></button>
+                        <label for="live">ART<span>(70)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="power"></button>
+                        <label for="power">Tulip chair table<span>(100)</span></label>
+                    </li>
+                    <li>
+                        <button class="checkedButton" id="power"></button>
+                        <label for="power">Other<span>(153)</span></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-show">
+            <ul>
+                <li class="items">
+                    <div class="left-pho"><img src="../images/0130-10_818-01_fx8210 1.png" alt=""></div>
+                    <div class="right-text">
+                        <h4>Swivel Chair</h4>
+                        <p class="caption">Craft Master</p>
+                        <p class="price">$1147</p>
+                    </div>
+                </li>
+                <li class="items">
+                    <div class="left-pho"><img src="../images/pngwing 5.png" alt=""></div>
+                    <div class="right-text">
+                        <h4>Wood Chair</h4>
+                        <p class="caption">Kincaid Furniture</p>
+                        <p class="price">$1957</p>
+                    </div>
+                </li>
+                <li class="items">
+                    <div class="left-pho"><img src="../images/Rectangle 3.png" alt=""></div>
+                    <div class="right-text">
+                        <h4>Swivel Chair</h4>
+                        <p class="caption">Craft Master</p>
+                        <p class="price">$997</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left-pho"><img src="../images/Rectangle 4.png" alt=""></div>
+                    <div class="right-text">
+                        <h4>Living Room Chair</h4>
+                        <p class="caption">Drew Furniture USA</p>
+                        <p class="price">$1457</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left-pho"><img src="../images/Rectangle 5.png" alt=""></div>
+                    <div class="right-text">
+                        <h4>Wing Chair</h4>
+                        <p class="caption">Kincaid Furniture</p>
+                        <p class="price">$1899</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+<script>
+    var checkedButton = document.querySelectorAll('.checkedButton')
+    for (let i = 0; i < checkedButton.length; i++) {
+        checkedButton[i].addEventListener('click',function(){
+            if(this.getAttribute('selected')=='true'){
+                this.style.backgroundImage = "url(../images/selected.png)"
+                this.setAttribute('selected','false')    
+            }else{
+                this.style.backgroundImage = "url(../images/checkbox.png)"
+                this.setAttribute('selected','true')
+            }
+        })
+    }
+
+
+    var drop = document.querySelectorAll('.left-type-top')
+    var ul = document.querySelectorAll('.left-type ul')
+    for (let i = 0; i < drop.length; i++) {
+        drop[i].addEventListener('click',function(){
+            if(this.getAttribute('selected')=='true'){
+                this.children[0].style.transform = 'rotate(-90deg)'
+                this.setAttribute('selected','false')
+                ul[this.getAttribute('index')].style.display = 'none'
+            }else{
+                this.children[0].style.transform = 'rotate(0deg)'
+                this.setAttribute('selected','true')
+                ul[this.getAttribute('index')].style.display = 'block'
+            }
+        })
+    }
+
+    
+    var shopcar = document.querySelector('.shopcar')
+    shopcar.addEventListener('click',function(){
+        location.href = './empty.html'
+    })
+
+    var search = document.querySelector('.search input')
+    search.addEventListener('click',function(){
+        location.href = './fram.html'
+    })
+
+    var item = document.querySelector('.items')
+    console.log(item);
+    item.addEventListener('click',function(){
+        location.href = './LivingRoomAdd.html'
+    })
+</script>
+</html>

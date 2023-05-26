@@ -7,7 +7,7 @@
     <title>CH ShoppingCart</title>
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/shopingCart.css">
-    
+    <script src="js/shoppingCart.js" async> </script>
 </head>
 <header>
     <link rel="stylesheet" href="css/nav.css" />
@@ -27,7 +27,7 @@
     
       <!-- Search bar icons -->
       <div class="nav_icons">
-        <a href="/person20(家具)(1)/html/shopingCart.html"><img src="/img/Shopping Cart.png" alt="shopping_cart_icon"></a>
+        <a href="shopingCart.html"><img src="/img/Shopping Cart.png" alt="shopping_cart_icon"></a>
         <a href="Profile.html"><img src="/img/person.png" alt="profile_icon"></a>
         <a href="#notification"><img src="/img/bell.png" alt="notification_icon"></a>
         <a href="#like"><img src="/img/heart.png" alt="like_icon"></a>
@@ -42,10 +42,10 @@
     </section>
     <section class="main-show">
         <div class="left">
-            <h5><span>3 products</span> in the cart</h5>
-            <ul>
-                <li>
-                    <div><img src="img/Rectangle 1.png" alt=""></div>
+            <h5><span class="Num_Product">3 products</span> in the cart</h5>
+            <ul class="All_Items">
+                <li class="Item">
+                    <div class="product_img"><img src="img/Rectangle 1.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Living Room Swivel Chair</h3>
@@ -58,21 +58,24 @@
                                 </div>
                                 <p>Size:<span>38</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button class="Minus">-</button>
-                                <input class="Item_Num" type="number" value="1">
-                                <button class="Add">+</button>
-                                <button class="delete"></button>
-                            </div>
+                            
                         </div>
                     </div>
+                    <div class="user-operation">
+                            <div class="Item_Enter">
+                                <a class="Minus"><img src="img/🦆 icon _minus outline_.png"></a>
+                                <input class="Item_Num" type="number" value="1">
+                                <a class="Add"><img src="img/🦆 icon _plus_.png"></a>
+                            </div>
+                        <a class="delete"> <img src="img/delete.png" alt="delete_img"></a>
+                    </div>
                 </li>
-                <li>
+                <li class="Item">
                     <div><img src="img/Rectangle Copy 7.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Writing Chair</h3>
-                            <p class="price">$650.99</p>
+                            <p class="price">$650.00</p>
                             <div class="bottom-show">
                                 <div>
                                     <p class="circle-brown">
@@ -81,21 +84,23 @@
                                 </div>
                                 <p>Size:<span>37</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button>-</button>
-                                <input type="text" value="1">
-                                <button>+</button>
-                                <button class="delete"></button>
-                            </div>
                         </div>
                     </div>
+                    <div class="user-operation">
+                        <div class="Item_Enter">
+                            <a class="Minus"><img src="img/🦆 icon _minus outline_.png"></a>
+                            <input class="Item_Num" type="number" value="1">
+                            <a class="Add"><img src="img/🦆 icon _plus_.png"></a>
+                        </div>
+                    <a class="delete"> <img src="img/delete.png" alt="delete_img"></a>
+                </div>
                 </li>
-                <li>
+                <li class="Item">
                     <div><img src="img/Rectangle 5.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Living Room Swivel Chair</h3>
-                            <p class="price">$650.99</p>
+                            <p class="price">$650.00</p>
                             <div class="bottom-show">
                                 <div>
                                     <p class="circle-white">
@@ -104,13 +109,15 @@
                                 </div>
                                 <p>Size:<span>38</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button>-</button>
-                                <input type="text" value="1">
-                                <button>+</button>
-                                <button class="delete"></button>
-                            </div>
                         </div>
+                    </div>
+                    <div class="user-operation">
+                        <div class="Item_Enter">
+                            <a class="Minus"><img src="img/🦆 icon _minus outline_.png"></a>
+                            <input class="Item_Num" type="number" value="1">
+                            <a class="Add"><img src="img/🦆 icon _plus_.png"></a>
+                        </div>
+                    <a class="delete"> <img src="img/delete.png" alt="delete_img"></a>
                     </div>
                 </li>
             </ul>
@@ -164,68 +171,13 @@
                 </div>
                 <p class="tips">Pay by Other Method?</p>
                 <div class="details">
-                    <p>Shipping fee<span>$6.99</span></p>
-                    <p>Sub total<span>$2,944.99</span></p>
-                    <p>Total<span>$2,951.98</span></p>
+                    <p>Shipping fee<span class="Shipping_Fee">$6.99</span></p>
+                    <p>Sub total<span class="Total_Sub">$2,944.99</span></p>
+                    <p>Total<span class="Total_Price">$2,951.98</span></p>
                     <button class="payfor">PAYMENT</button>
                 </div>
             </div>
         </div>
     </section>
 </body>
-<script>
-    var checkedButton = document.querySelectorAll('.checkedButton')
-    for (let i = 0; i < checkedButton.length; i++) {
-        checkedButton[i].addEventListener('click',function(){
-            if(this.getAttribute('selected')=='true'){
-                this.style.backgroundImage = "url(img/selected.png)"
-                this.setAttribute('selected','false')    
-            }else{
-                this.style.backgroundImage = "url(img/checkbox.png)"
-                this.setAttribute('selected','true')
-            }
-        })
-    }
-
-
-    var drop = document.querySelectorAll('.left-type-top')
-    var ul = document.querySelectorAll('.left-type ul')
-    for (let i = 0; i < drop.length; i++) {
-        drop[i].addEventListener('click',function(){
-            if(this.getAttribute('selected')=='true'){
-                this.children[0].style.transform = 'rotate(-90deg)'
-                this.setAttribute('selected','false')
-                ul[this.getAttribute('index')].style.display = 'none'
-            }else{
-                this.children[0].style.transform = 'rotate(0deg)'
-                this.setAttribute('selected','true')
-                ul[this.getAttribute('index')].style.display = 'block'
-            }
-        })
-    }
-    var search = document.querySelector('.search input')
-    search.addEventListener('click',function(){
-        location.href = './fram.html'
-    })
-
-
-    var products = document.querySelectorAll('.left ul li')
-    products[0].addEventListener('click',function(){
-        location.href = './LivingRoomAdd.html'
-    })
-
-    var pay = document.querySelector('.payfor')
-    pay.addEventListener('click',function(){
-        location.href = './sucess.html'
-    })
-
-    var pay_show = document.querySelectorAll('.pay-show ul li')
-    var selected_pay = document.querySelector('.selected-pay')
-    for (let i = 0; i < pay_show.length; i++) {
-        pay_show[i].addEventListener('click',function(){
-            selected_pay.style.top = parseInt(this.getAttribute('index'))*110 + 40 + '%'
-        })
-        
-    }
-</script>
 </html>

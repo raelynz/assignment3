@@ -189,20 +189,12 @@ body{
     width: 2vw;
     text-align: center;
 }
-.user-operation{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 1vw;
-    height: 2vw;
-}
 .left ul li{
     display: flex;
     margin-bottom: 7vw;
     cursor: pointer;
 }
-.left ul li img{
+.product_img img{
     width: 12vw;
     height: 12vw;
     object-fit: cover;
@@ -211,20 +203,12 @@ body{
     font-size: 36px;
     font-weight: 400;
 }
-.user-operation button,.user-operation input{
-    width: 2vw;
-    height: 2vw;
-    box-sizing: border-box;
+.Item_Enter{
+    width: 5vw;
+    height: auto;
+    align-items: center;
 }
-.user-operation button{
-    background-color: transparent;
-    border: 1px solid transparent;
-    font-size: 32px;
-    line-height: 0;
-    font-weight: 100;
-    cursor: pointer;
-    overflow: hidden;
-}
+
 .price{
     color: #6c6c6c80;
     font-weight: 400;
@@ -293,14 +277,58 @@ body{
     border: 1px solid #333;
     border-radius: 1vw;
 }
-.delete{
-    width: 1.5vw;
-    height: 1.5vw;
-    background-image: url(css/delete.png);
-    background-size: cover;
-    background-color: transparent;
-    border: 1px solid transparent;
+
+.user-operation{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width:10vw;
+    margin-right: 5vw;
+    margin-bottom:9vw;
 }
+
+.Item_Enter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:2vw,1vw;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.Item_Num{
+    border:transparent;
+    height:auto;
+    width:2vw;
+}
+
+.Minus , .Add{
+    display:flex;
+    align-items: center;
+    height:auto;
+    width:1.5vw;
+    justify-content:space-around;
+}
+
+.Minus img, .Add img{
+    width:80%;
+}
+
+
+.delete{
+    width: 1.5vh;
+    height: 1.5vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:10%;
+}
+
+.delete img{
+    width:100%;
+}
+
 .payfor{
     cursor: pointer;
 }

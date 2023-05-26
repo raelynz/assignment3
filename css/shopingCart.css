@@ -2,6 +2,7 @@
 li{list-style: none;}
 a{text-decoration: none;}
 body{
+    margin-top:5%;
     font-size: 20px;
 }
 .selected-show{

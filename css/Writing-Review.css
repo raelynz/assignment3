@@ -1,0 +1,35 @@
+*{outline:solid 1px red}
+.banner{
+    height: 40vw;
+    display: flex;
+}
+
+.WR_Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.WR_Img {
+  width: 30vw;
+  height: 30vw;
+  margin-left: 20vw;
+  margin-top: 5vw;
+}
+
+.text {
+  margin-top: 18vw;
+  margin-left: 10vw;
+}
+
+.WR_Rating {
+  display: flex;
+  justify-content: flex-start;
+  width: 10vw;
+  height: auto;
+  margin-top: 1vw;
+}
+
+.WR_Rating img {
+  width: 70%;
+  height: auto;
+}

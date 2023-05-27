@@ -97,6 +97,8 @@ body{
     object-fit: cover;
 }
 .tips{
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
     color: #6c6c6c8a;
     margin-top: .5vw;
     font-size: 18px;

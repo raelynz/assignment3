@@ -1,13 +1,16 @@
 @import url("Index-for-entering.css");
 @media (min-width: 1001px){
-    .Enter_Info{
-    margin-top:5%;
-    margin-left:10%;
+
+.Enter_Info{
+    margin-top: 5%;
+    padding-left: 10%;
+    width: 40%;
+    position: relative;
 }
 
 .Contact{
     border: 0.5px solid #000000;
-    width:30%;
+    width:67%;
     padding:0.75vw;
     border-radius:2vh;
 }
@@ -24,7 +27,7 @@
 .Checkbox_Op1{
     display:flex;
     align-items: center;
-    width:13.5%;
+    width:33%;
     border:solid 0.5px #000000;
     border-radius: 2vh;
     padding-left:1%;
@@ -46,7 +49,7 @@
 .Checkbox_Op2{
     display:flex;
     align-items: center;
-    width:13.5%;
+    width:33%;
     border:solid 0.5px #000000;
     border-radius: 2vh;
     padding-left:1%;
@@ -77,7 +80,7 @@
     border: 0.5px solid #000000;
     border-radius: 2vh;
     padding:0.75vw;
-    width:13%;
+    width:30%;
 }
 
 .NA_Last_Name{
@@ -86,11 +89,11 @@
     border-radius: 2vh;
     padding:0.75vw;
     margin-left:1.75%;
-    width:13%;
+    width:30%;
 }
 
 select{
-    width:31.5%;
+    width:70%;
     border-radius: 2vh;
     padding:0.75vw;
     margin-top:1.5%;
@@ -105,7 +108,7 @@ select{
     border: 0.5px solid #000000;
     border-radius: 2vh;
     padding:0.75vw;
-    width:13%;
+    width:29.5%;
 }
 
 .NA_Postcode{
@@ -114,12 +117,12 @@ select{
     border-radius: 2vh;
     padding:0.75vw;
     margin-left:1.75%;
-    width:13%;
+    width:29.5%;
 }
 
 .NA_Address{
     border: 0.5px solid #000000;
-    width:30%;
+    width:65%;
     padding:0.75vw;
     border-radius:2vh;
     margin-top:1.5%;
@@ -127,7 +130,7 @@ select{
 
 .NA_Phonenum{
     border: 0.5px solid #000000;
-    width:30%;
+    width:65%;
     padding:0.75vw;
     border-radius:2vh;
     margin-top:1.5%;
@@ -152,7 +155,7 @@ select{
   }
   
   .NA_Continue {
-    width: 6%;
+    width: 15%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     background: #000000;
@@ -175,6 +178,82 @@ select{
     transform: translateY(25%);
     background: rgba(0, 0, 0, 0.3);
   }
+
+  .Img_Sec{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top:10%;
+    margin-right:20%;
+  }
+
+  .Item_Row{
+    display:flex;
+    flex-direction: row;
+    height:7.5vw;
+    width:100%;
+    margin-top:3vh;
+   }
+
+  .NA_Product_Img{
+    width:7.5vw;
+    height:7.5vw;
+  }
+
+  .NA_Product_Img img{
+    width:100%;
+    height:auto;
+  }
+
+  .NA_ItemNumPrice{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #999999;
+    margin-top:5vh;
+    width:13vw;
+  }
+
+  .NA_Title {
+    display: flex;
+    align-items: flex-start;
+    height:2.5vh;
+    width:100%;
+  }
+
+  .NA_Product_Info{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .details{
+    width: 100%;
+    height: 30vh;
+    margin-top: 10vh;
+    }
+  .details p{
+    color: #6c6c6c83;
+    position: relative;
+    font-weight: 400;
+     margin-top: .5vw;
+    }
+    .details p span{
+        position: absolute;
+        right: 0;
+    }
+    .details p:nth-child(3){
+        color: #333;
+        font-size: 28px;
+    }
+
 }
 
 @media (min-width:400px) and (max-width: 1000px){
@@ -356,6 +435,10 @@ select{
       }
     
       .line {
+        display:none;
+      }
+
+      .Img_Sec{
         display:none;
       }
 }
@@ -540,6 +623,10 @@ select{
       }
     
       .line {
+        display:none;
+      }
+
+      .Img_Sec{
         display:none;
       }
 }

@@ -289,6 +289,9 @@ nav ul li button[type=button] img{
     border-radius: 1vh;
     cursor: pointer;
 }
+.save-show a{
+    color:white;
+}
 .save-show a:nth-child(3){
     background-color: white;
     border: 1px solid #333;

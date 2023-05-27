@@ -2,67 +2,8 @@
 li{list-style: none;}
 a{text-decoration: none;}
 body{
+    margin-top:5%;
     font-size: 20px;
-}
-header{
-    width: 100%;
-    height: 6vh;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    width: 23vw;
-    height: 6vh;
-    margin-left: 60px;
-    box-sizing: border-box;
-}
-.search{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.search input[type=text]{
-    width: 42vw;
-    height: 4vh;
-    border-radius: 2vh;
-    border: 1px solid transparent;
-    background-color: #918e8e57;
-    color: #333;
-    font-weight: 100;
-    text-indent: 3.5em;
-    margin-right: 4vw;
-}
-input[type=text]:focus{
-    outline: none;
-}
-.search button[type=button]{
-    background-image: url(../images/search.png);
-    width: 25px;
-    height: 25px;
-    background-size: cover;
-    background-color: transparent;
-    border: 1px solid transparent;
-    position: absolute;
-    left: .4vw;
-    cursor: pointer;
-}
-nav ul{
-    height:6vh;
-    width: 18vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul li{
-    margin-left: 20px;
-}
-nav ul li button[type=button]{
-    background-color: transparent;
-    border: 1px solid transparent;
-}
-nav ul li button[type=button] img{
-    width: 1.5vw;
-    height: 1.5vw;
 }
 .selected-show{
     margin-top: 5vh;

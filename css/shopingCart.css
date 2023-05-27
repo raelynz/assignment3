@@ -334,3 +334,7 @@ body{
 .payfor{
     cursor: pointer;
 }
+
+.payfor a{
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H</title>
+    <link rel="stylesheet" href="../css/empty.css">
+</head>
+<header>
+    <link rel="stylesheet" href="/carolhouse/css/nav.css" />
+    <nav>
+      <!-- Search bar -->
+      <div class="Website_Icon">
+        <a href="homepage.html">
+          <img src="/carolhouse/images/website_logo.png" alt="website logo">
+        </a>
+      </div>
+    
+      <div class="search-bar">
+        <img src="/carolhouse/images/search.png" class="search-icon" alt="Search Icon">
+        <a href="/carolhouse/html/fram.html">
+        <input type="text" class="search-input" placeholder="What are you looking for?">
+      </div>
+    
+      <!-- Search bar icons -->
+      <div class="nav_icons">
+        <a href="shopingCart.html"><img src="/carolhouse/images/Shopping Cart.png" alt="shopping_cart_icon"></a>
+        <a href="Profile.html"><img src="/carolhouse/images/person.png" alt="profile_icon"></a>
+        <a href="#notification"><img src="/carolhouse/images/Bell icon.png" alt="notification_icon"></a>
+        <a href="#like"><img src="/carolhouse/images/heart.png" alt="like_icon"></a>
+        <a href="#drop_menu"><img src="/carolhouse/images/Drop menu.png" alt="drop_menu"></a>
+      </div>
+    </nav>
+</header>
+<body>
+    <section class="selected-show">
+        <h1>Shopping cart</h1>
+        <div class="shoping">
+            <img src="../images/shopcar4.png" alt="">
+        </div>
+        <p>Your shopping cart is empty</p>
+        <p>Fortunately,there's an easy solution.</p>
+        <a href="../index.html">Go Shopping</a>
+    </section>
+</body>
+<script>
+    var search = document.querySelector('.search input')
+    search.addEventListener('click',function(){
+        location.href = './fram.html'
+    })
+</script>
+</html>

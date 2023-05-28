@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H</title>
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<header>
+    <link rel="stylesheet" href="/carolhouse/css/nav.css" />
+    <nav>
+      <!-- Search bar -->
+      <div class="Website_Icon">
+        <a href="homepage.html">
+          <img src="/carolhouse/images/website_logo.png" alt="website logo">
+        </a>
+      </div>
+    
+      <div class="search-bar">
+        <img src="/carolhouse/images/search.png" class="search-icon" alt="Search Icon">
+        <a href="/carolhouse/html/fram.html">
+        <input type="text" class="search-input" placeholder="What are you looking for?">
+      </div>
+    
+      <!-- Search bar icons -->
+      <div class="nav_icons">
+        <a href="shopingCart.html"><img src="/carolhouse/images/Shopping Cart.png" alt="shopping_cart_icon"></a>
+        <a href="Profile.html"><img src="/carolhouse/images/person.png" alt="profile_icon"></a>
+        <a href="#notification"><img src="/carolhouse/images/Bell icon.png" alt="notification_icon"></a>
+        <a href="#like"><img src="/carolhouse/images/heart.png" alt="like_icon"></a>
+        <a href="#drop_menu"><img src="/carolhouse/images/Drop menu.png" alt="drop_menu"></a>
+      </div>
+    </nav>
+</header>
+<body>
+    <section class="main-show">
+        <div class="left">
+            <h2>Items:</h2>
+            <div class="top">
+                <div><img src="../images/Rectangle Copy 7.png" alt=""></div>
+                <div class="caption">
+                    <h3>Writing Table</h3>
+                    <p>Delivering</p>
+                    <p>Brown</p>
+                    <p>1x</p>
+                    <p>$659.99</p>
+                </div>
+            </div>
+            <h2>User Detail:</h2>
+            <div class="center">
+                <div><img src="../images/map.png" alt=""></div>
+                <div>
+                    <h3>Jane Cooper</h3>
+                    <p>4517 Washington Ave.Manchester，<br>Kentucky 39495</p>
+                    <p>(406)555-0120</p>
+                </div>
+            </div>
+            <h2>Notifications:</h2>
+            <div class="bottom">
+                <ul>
+                    <li>
+                        <div class="circle"><img src="../images/file.png" alt=""></div>
+                        <div>
+                            <p>Your order #85739 has been<br>successfully!</p>
+                            <p class="tips">15 mins ago</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle"><img src="../images/file2.png" alt=""></div>
+                        <div>
+                            <p>Special Big Sale up to 50% Off<br>all product today!</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="details">
+                    <p>Shipping fee<span>$6.99</span></p>
+                    <p>Sub total<span>$2,944.99</span></p>
+                    <p>Total<span>$2,951.98</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="show-main-right">
+                <div class="left-pho">
+                    <img src="../images/mapshow.jpg" alt="">
+                    <div class="place">
+                        <img src="../images/map.png" alt="">
+                    </div>
+                </div>
+                <div class="right-right">
+                    <div class="top-right">
+                        <p>Your Tracking Order</p>
+                        <p>#76281</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="big-circle circle-dash">
+                                <div class="small-circle"></div>
+                            </div>
+                            <div class="caption-right">
+                                <h5>Parcel has been delivered</h5>
+                                <p>18 Aug 05：30 PM</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="big-circle circle-dash">
+                                <div class="small-circle"></div>
+                            </div>
+                            <div class="caption-right">
+                                <h5>Parcel has arrived at the delivery hub</h5>
+                                <p>15 Aug 12：30 PM</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="big-circle circle-dash">
+                                <div class="small-circle"></div>
+                            </div>
+                            <div class="caption-right">
+                                <h5>Shipment Received by our courier</h5>
+                                <p>15 Aug 12：30 PM</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="big-circle">
+                                <div class="small-circle"></div>
+                            </div>
+                            <div class="caption-right">
+                                <h5>Preparing to ship your parcel</h5>
+                                <p>15 Aug 12：30 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a class="button button1" href="../index.html">Continue shopping</a><br>
+            <a class="button button2" href="Writing-Review.html">Write a review</a>
+        </div>
+    </section>
+</body>
+<script>
+    var search = document.querySelector('.search input')
+    search.addEventListener('click',function(){
+        location.href = './fram.html'
+    })
+</script>
+</html>

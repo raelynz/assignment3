@@ -1,0 +1,157 @@
+ul li {
+  list-style: none;
+}
+
+header {
+  margin-top: 2vh;
+  width: 100%;
+}
+
+header .header {
+  display: flex;
+  margin: 0 40px 0 32px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  flex: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  height: 4vh;
+}
+
+.c {
+  position: absolute;
+  width: 5vh;
+  height: 7vh;
+  left: 0.3vh;
+  top: 0px;
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vh;
+  line-height: 5vh;
+
+  color: #000000;
+}
+
+.h {
+  position: absolute;
+  width: 5vh;
+  height: 7vh;
+  left: 3vh;
+  top: 1.5vh;
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5vh;
+  line-height: 5vh;
+  color: #000000;
+}
+
+.text {
+  position: absolute;
+  left: 7vh;
+  top: 1vh;
+  width: 28vh;
+  height: 4.5vh;
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.3vh;
+  line-height: 28px;
+  color: #262626;
+}
+
+.input {
+  flex: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 16px;
+  height: 6vh;
+  left: 385px;
+  top: 3vh;
+  background: #F5F5F5;
+  border-radius: 5vh;
+  margin-right: 10vh;
+}
+
+.input img {
+  position: absolute;
+  width: 3vh;
+}
+
+.input input {
+  margin-left: 6vh;
+  border: 0;
+  background-color: #f5f5f5;
+}
+
+.smalllogo {
+  flex: 20%;
+}
+
+.smalllogo ul {
+  display: flex;
+}
+
+.smalllogo ul li {
+  flex: 1;
+}
+
+.smalllogo ul li img {
+  width: 3vh;
+}
+
+
+/* 底部 */
+footer {
+  margin-top: 10vh;
+  background-color: black;
+}
+
+.Text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vh;
+  line-height: 2vh;
+  color: white;
+}
+
+.Text section p {
+  line-height: 3vh;
+}
+
+h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vh;
+  line-height: 38px;
+  color: white;
+}
+
+
+.Bottom_Part_Footer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Brand_Name {
+  margin-left: 5%;
+}
+
+.Pay_Method {
+  margin-right: 5%;
+}

@@ -92,7 +92,7 @@
 }
 
 .Review_Title input{
-    width: 50vw;
+    width: 49vw;
     height: 5vh;
     padding-left:1vw;
     background: #FFFFFF;
@@ -208,7 +208,7 @@
 }
 
 .Review_Title input{
-    width: 70vw;
+    width: 69vw;
     height: 4vh;
     padding-left:1.5vw;
     background: #FFFFFF;
@@ -326,7 +326,7 @@
     }
     
     .Review_Title input{
-        width: 85vw;
+        width: 84vw;
         height: 5vh;
         padding-left:1.5vw;
         background: #FFFFFF;

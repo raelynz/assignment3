@@ -471,6 +471,7 @@ padding: 2vh 2vw;
     left: 5%;
     width: 90%;
     margin-top: 5vh;
+    overflow:hidden;
   }
   .Popular_Product_Title {
     display: flex;
@@ -479,13 +480,16 @@ padding: 2vh 2vw;
   }
   
   .Product_Info {
+    overflow: auto;
+    white-space: nowrap;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     gap: 3vw;
   }
   
   .Popular_Product > .Product_Small {
-    width: 100%;
+    width: 60vw;
+    height:120vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -498,12 +502,13 @@ padding: 2vh 2vw;
   }
   
   .Rating_Small img{
-    width:90%;
+    width:100%;
   }
   
 
   .Product_Image_Detail img {
-    max-width: 70%;
+    width:30vw;
+    height:30vw;
     height: auto;
   }
   

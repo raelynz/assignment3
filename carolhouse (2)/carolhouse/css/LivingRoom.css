@@ -4,97 +4,7 @@ a{text-decoration: none;}
 body{
     font-size: 20px;
 }
-header{
-    width: 100%;
-    height: 6vh;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    width: 23vw;
-    height: 6vh;
-    margin-left: 60px;
-    box-sizing: border-box;
-}
-.search{
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.search input[type=text]{
-    width: 42vw;
-    height: 4vh;
-    border-radius: 2vh;
-    border: 1px solid transparent;
-    background-color: #918e8e57;
-    color: #333;
-    font-weight: 100;
-    text-indent: 3.5em;
-    margin-right: 4vw;
-}
-input[type=text]:focus{
-    outline: none;
-}
-.search button[type=button]{
-    background-image: url(../images/search.png);
-    width: 25px;
-    height: 25px;
-    background-size: cover;
-    background-color: transparent;
-    border: 1px solid transparent;
-    position: absolute;
-    left: .4vw;
-    cursor: pointer;
-}
-nav ul{
-    height:6vh;
-    width: 18vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul li{
-    margin-left: 20px;
-}
-nav ul li button[type=button]{
-    background-color: transparent;
-    border: 1px solid transparent;
-}
-nav ul li button[type=button] img{
-    width: 1.5vw;
-    height: 1.5vw;
-}
-.selected-show{
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.selected-show ul{
-    width: 35vw;
-    display: flex;
-    justify-content: space-between;
-}
-.selected-show ul li{
-    box-shadow: 0px 0px 6px #8181815d;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.selected-show ul li button[type=button]{
-    width: 6vw;
-    height: 6vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: 1px solid transparent;
-}
-.selected-show ul li button[type=button] img{
-    width: 60%;
-    height: 60%;
-    object-fit: cover;
-}
+
 .banner{
     height: 40vw;
     display: flex;
@@ -105,19 +15,29 @@ nav ul li button[type=button] img{
     height: 30vw;
     object-fit: cover;
     margin-left: 20vw;
-    margin-top: 5vw;
+    margin-top: 7.5vw;
 }
 .text{
-    position: absolute;
-    left: 60%;
-    top: 40%;
+    margin-top: 15vw;
+    margin-left: 10vw;
 }
 .text p:nth-child(1){
-    color: #6c6c6c;
-    font-size: 18px;
+    margin-bottom:0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vh;
+    line-height: 3vh;
 }
 .text h1:nth-child(2){
-    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 4vh;
+    line-height: 4vh;
+    margin-top: 0;
+    color: #262626;
+    margin-bottom:0;
 }
 .text p:nth-child(3){
     margin-top: 1.5vw;
@@ -138,7 +58,7 @@ nav ul li button[type=button] img{
     left: 0;
 }
 .banner div .button1{
-    background-color: rgba(78, 55, 19, 0.999);
+    background-color: #A58172;
     border: 1px solid transparent;
     width: 10vw;
     height: 2vw;

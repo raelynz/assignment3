@@ -84,37 +84,6 @@ for (var i = 0; i < quantityInputs.length; i++) {
 /* Update the function */
 updateCartTotal();
 
-
-var checkedButton = document.querySelectorAll('.checkedButton')
-for (let i = 0; i < checkedButton.length; i++) {
-    checkedButton[i].addEventListener('click',function(){
-        if(this.getAttribute('selected')=='true'){
-            this.style.backgroundImage = "url(img/selected.png)"
-            this.setAttribute('selected','false')    
-        }else{
-            this.style.backgroundImage = "url(img/checkbox.png)"
-            this.setAttribute('selected','true')
-        }
-    })
-}
-
-
-var drop = document.querySelectorAll('.left-type-top')
-var ul = document.querySelectorAll('.left-type ul')
-for (let i = 0; i < drop.length; i++) {
-    drop[i].addEventListener('click',function(){
-        if(this.getAttribute('selected')=='true'){
-            this.children[0].style.transform = 'rotate(-90deg)'
-            this.setAttribute('selected','false')
-            ul[this.getAttribute('index')].style.display = 'none'
-        }else{
-            this.children[0].style.transform = 'rotate(0deg)'
-            this.setAttribute('selected','true')
-            ul[this.getAttribute('index')].style.display = 'block'
-        }
-    })
-}
-
 var pay_show = document.querySelectorAll('.pay-show ul li')
 var selected_pay = document.querySelector('.selected-pay')
 for (let i = 0; i < pay_show.length; i++) {

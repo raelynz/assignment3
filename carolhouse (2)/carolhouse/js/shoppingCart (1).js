@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 /*delete items from product list*/
 var removeFromCart = document.getElementsByClassName('delete');
 
@@ -122,3 +123,4 @@ for (let i = 0; i < pay_show.length; i++) {
     })
     
 }
+});

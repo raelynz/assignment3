@@ -6,23 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C H</title>
     <link rel="stylesheet" href="../css/shoppingCart.css">
+    <script src="../js/shoppingCart (1).js" async> </script>
 </head>
 <header>
-    <div class="logo">
-        <img src="../images/logo.jpg" alt="">
-    </div>
-    <div class="search">
-        <button type="button"></button>
-        <input type="text" placeholder="what are you looking for?">
-    </div>
+    <link rel="stylesheet" href="../css/nav.css" />
     <nav>
-        <ul>
-            <li><button type="button"><img src="../images/shopCar.png" alt=""></button></li>
-            <li><button type="button"><img src="../images/user.png" alt=""></button></li>
-            <li><button type="button"><img src="../images/news.png" alt=""></button></li>
-            <li><button type="button"><img src="../images/living.png" alt=""></button></li>
-            <li><button type="button"><img src="../images/list.png" alt=""></button></li>
-        </ul>
+      <!-- Search bar -->
+      <div class="Website_Icon">
+        <a href="homepage.html">
+          <img src="/carolhouse (2)/carolhouse/images/website_logo.png" alt="website logo">
+        </a>
+      </div>
+    
+      <div class="search-bar">
+        <img src="/carolhouse (2)/carolhouse/images/search.png" class="search-icon" alt="Search Icon">
+        <a href="/carolhouse (2)/carolhouse/html/fram.html"></a>
+        <input type="text" class="search-input" placeholder="What are you looking for?">
+      </div>
+    
+      <!-- Search bar icons -->
+      <div class="nav_icons">
+        <a href="shopingCart.html"><img src="/carolhouse (2)/carolhouse/images/Shopping Cart.png" alt="shopping_cart_icon"></a>
+        <a href="Profile.html"><img src="/carolhouse (2)/carolhouse/images/person.png" alt="profile_icon"></a>
+        <a href="#notification"><img src="/carolhouse (2)/carolhouse/images/bell.png" alt="notification_icon"></a>
+        <a href="#like"><img src="/carolhouse (2)/carolhouse/images/heart.png" alt="like_icon"></a>
+        <a href="#drop_menu"><img src="/carolhouse (2)/carolhouse/images/Drop menu.png" alt="drop_menu"></a>
+      </div>
     </nav>
 </header>
 <body>
@@ -31,10 +40,10 @@
     </section>
     <section class="main-show">
         <div class="left">
-            <h5><span>3 products</span> in the cart</h5>
-            <ul>
-                <li>
-                    <div><img src="../images/Rectangle 1.png" alt=""></div>
+            <h5><span class="Num_Product">3 products</span> in the cart</h5>
+            <ul class="All_Items">
+                <li class="Item">
+                    <div class="product_img"><img src="../images/Rectangle 1.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Living Room Swivel Chair</h3>
@@ -47,21 +56,24 @@
                                 </div>
                                 <p>Size:<span>38</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button>-</button>
-                                <input type="text" value="1">
-                                <button>+</button>
-                                <button class="delete"></button>
-                            </div>
+                            
                         </div>
                     </div>
+                    <div class="user-operation">
+                            <div class="Item_Enter">
+                                <a class="Minus"><img src="../images/🦆 icon _minus outline_.png"></a>
+                                <input class="Item_Num" type="number" value="1">
+                                <a class="Add"><img src="../images/🦆 icon _plus_.png"></a>
+                            </div>
+                        <a class="delete"> <img src="../images/delete.png" alt="delete_img"></a>
+                    </div>
                 </li>
-                <li>
+                <li class="Item">
                     <div><img src="../images/Rectangle Copy 7.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Writing Chair</h3>
-                            <p class="price">$650.99</p>
+                            <p class="price">$650.00</p>
                             <div class="bottom-show">
                                 <div>
                                     <p class="circle-brown">
@@ -70,21 +82,23 @@
                                 </div>
                                 <p>Size:<span>37</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button>-</button>
-                                <input type="text" value="1">
-                                <button>+</button>
-                                <button class="delete"></button>
-                            </div>
                         </div>
                     </div>
+                    <div class="user-operation">
+                        <div class="Item_Enter">
+                            <a class="Minus"><img src="../images/🦆 icon _minus outline_.png"></a>
+                            <input class="Item_Num" type="number" value="1">
+                            <a class="Add"><img src="../images/🦆 icon _plus_.png"></a>
+                        </div>
+                    <a class="delete"> <img src="../images/delete.png" alt="delete_img"></a>
+                </div>
                 </li>
-                <li>
+                <li class="Item">
                     <div><img src="../images/Rectangle 5.png" alt=""></div>
                     <div class="right-show-text">
                         <div>
                             <h3>Living Room Swivel Chair</h3>
-                            <p class="price">$650.99</p>
+                            <p class="price">$650.00</p>
                             <div class="bottom-show">
                                 <div>
                                     <p class="circle-white">
@@ -93,13 +107,15 @@
                                 </div>
                                 <p>Size:<span>38</span></p>
                             </div>
-                            <div class="user-operation">
-                                <button>-</button>
-                                <input type="text" value="1">
-                                <button>+</button>
-                                <button class="delete"></button>
-                            </div>
                         </div>
+                    </div>
+                    <div class="user-operation">
+                        <div class="Item_Enter">
+                            <a class="Minus"><img src="../images/🦆 icon _minus outline_.png"></a>
+                            <input class="Item_Num" type="number" value="1">
+                            <a class="Add"><img src="../images/🦆 icon _plus_.png"></a>
+                        </div>
+                    <a class="delete"> <img src="../images/delete.png" alt="delete_img"></a>
                     </div>
                 </li>
             </ul>
@@ -152,193 +168,15 @@
                     </ul>
                 </div>
                 <p class="tips">Pay by Other Method?</p>
-                <div class="details">
-                    <p>Shipping fee<span>$6.99</span></p>
-                    <p>Sub total<span>$2,944.99</span></p>
-                    <p>Total<span>$2,951.98</span></p>
-                    <button class="payfor">PAYMENT</button>
-                </div>
+<div class="details">
+    <p>Shipping fee<span class="Shipping_Fee">$6.99</span></p>
+    <p>Sub total<span class="Total_Sub">$2,944.99</span></p>
+    <p>Total<span class="Total_Price">$2,951.98</span></p>
+    <button class="payfor">PAYMENT</button>
+</div>
+
             </div>
         </div>
     </section>
 </body>
-<script>
-    var checkedButton = document.querySelectorAll('.checkedButton')
-    for (let i = 0; i < checkedButton.length; i++) {
-        checkedButton[i].addEventListener('click',function(){
-            if(this.getAttribute('selected')=='true'){
-                this.style.backgroundImage = "url(../images/selected.png)"
-                this.setAttribute('selected','false')    
-            }else{
-                this.style.backgroundImage = "url(../images/checkbox.png)"
-                this.setAttribute('selected','true')
-            }
-        })
-    }
-
-
-    var drop = document.querySelectorAll('.left-type-top')
-    var ul = document.querySelectorAll('.left-type ul')
-    for (let i = 0; i < drop.length; i++) {
-        drop[i].addEventListener('click',function(){
-            if(this.getAttribute('selected')=='true'){
-                this.children[0].style.transform = 'rotate(-90deg)'
-                this.setAttribute('selected','false')
-                ul[this.getAttribute('index')].style.display = 'none'
-            }else{
-                this.children[0].style.transform = 'rotate(0deg)'
-                this.setAttribute('selected','true')
-                ul[this.getAttribute('index')].style.display = 'block'
-            }
-        })
-    }
-    var search = document.querySelector('.search input')
-    search.addEventListener('click',function(){
-        location.href = './fram.html'
-    })
-
-
-    var products = document.querySelectorAll('.left ul li')
-    products[0].addEventListener('click',function(){
-        location.href = './LivingRoomAdd.html'
-    })
-
-    var pay = document.querySelector('.payfor')
-    pay.addEventListener('click',function(){
-        location.href = './sucess.html'
-    })
-
-    var pay_show = document.querySelectorAll('.pay-show ul li')
-    var selected_pay = document.querySelector('.selected-pay')
-    for (let i = 0; i < pay_show.length; i++) {
-        pay_show[i].addEventListener('click',function(){
-            selected_pay.style.top = parseInt(this.getAttribute('index'))*110 + 40 + '%'
-        })
-        
-    }
-    /*delete items from product list*/
-var removeFromCart = document.getElementsByClassName('delete');
-
-for (var i = 0; i < removeFromCart.length; i++) {
-  var button = removeFromCart[i];
-  button.addEventListener('click', function(event) {
-    var buttonClicked = event.target;
-    buttonClicked.parentElement.parentElement.parentElement.remove();
-    updateCartTotal();
-  });
-}
-
-/*Function for calculating total price and total number of product */
-function updateCartTotal() {
-    var cartItemHolder = document.getElementsByClassName('All_Items')[0];
-    var cartRows = cartItemHolder.getElementsByClassName('Item');
-    var total = 0;
-    var totalMoney = 0;
-    var shippingFee = parseFloat(document.getElementsByClassName('Shipping_Fee')[0].innerText.replace('$',''));
-/*total number of product */
-    for (var i = 0; i < cartRows.length; i++) {
-        var cartRow = cartRows[i];
-        var quantity = cartRow.getElementsByClassName('Item_Num')[0];
-        var quantityValue = parseInt(quantity.value);
-        total += quantityValue;
-    }
-/*total price of product */
-    for (var i = 0; i < cartRows.length; i++) {
-        var cartRow = cartRows[i];
-        var price = cartRow.getElementsByClassName('price')[0];
-        var quantity = cartRow.getElementsByClassName('Item_Num')[0];
-        var priceProduct = parseFloat(price.innerText.replace('$', ''));
-        var quantityProduct = quantity.value;
-        totalMoney += priceProduct * quantityProduct;
-    }
-
-    var totalSub = document.getElementsByClassName('Total_Sub')[0];
-    var totalPrice = document.getElementsByClassName('Total_Price')[0];
-
-    totalSub.innerText = '$' + totalMoney;
-    totalPrice.innerText = '$' + (totalMoney + shippingFee);
-    document.getElementsByClassName('Num_Product')[0].innerText = total + ' products';
-
-    // Check if subtotal is 0, if it's 0 total will be 0
-    if (totalMoney === 0) {
-        totalPrice.innerText = '$0';
-    }
-}
-
-/* plus and minus button */
-var plusButtons = document.querySelectorAll('.Add');
-var minusButtons = document.querySelectorAll('.Minus');
-
-/*make plus sign work */
-for (var i = 0; i < plusButtons.length; i++) {
-  plusButtons[i].addEventListener('click', function() {
-    var quantityInput = this.parentElement.querySelector('.Item_Num');
-    var currentValue = parseInt(quantityInput.value);
-    quantityInput.value = currentValue + 1;
-    updateCartTotal();
-  });
-}
-
-/*make minus sign work */
-for (var i = 0; i < minusButtons.length; i++) {
-  minusButtons[i].addEventListener('click', function() {
-    var quantityInput = this.parentElement.querySelector('.Item_Num');
-    var currentValue = parseInt(quantityInput.value);
-    if (currentValue > 1) {
-      quantityInput.value = currentValue - 1;
-      updateCartTotal();
-    }
-  });
-}
-
-/* add event listener*/
-var quantityInputs = document.getElementsByClassName('Item_Num');
-for (var i = 0; i < quantityInputs.length; i++) {
-  var input = quantityInputs[i];
-  input.addEventListener('change', updateCartTotal);
-}
-
-/* Update the function */
-updateCartTotal();
-
-
-var checkedButton = document.querySelectorAll('.checkedButton')
-for (let i = 0; i < checkedButton.length; i++) {
-    checkedButton[i].addEventListener('click',function(){
-        if(this.getAttribute('selected')=='true'){
-            this.style.backgroundImage = "url(img/selected.png)"
-            this.setAttribute('selected','false')    
-        }else{
-            this.style.backgroundImage = "url(img/checkbox.png)"
-            this.setAttribute('selected','true')
-        }
-    })
-}
-
-
-var drop = document.querySelectorAll('.left-type-top')
-var ul = document.querySelectorAll('.left-type ul')
-for (let i = 0; i < drop.length; i++) {
-    drop[i].addEventListener('click',function(){
-        if(this.getAttribute('selected')=='true'){
-            this.children[0].style.transform = 'rotate(-90deg)'
-            this.setAttribute('selected','false')
-            ul[this.getAttribute('index')].style.display = 'none'
-        }else{
-            this.children[0].style.transform = 'rotate(0deg)'
-            this.setAttribute('selected','true')
-            ul[this.getAttribute('index')].style.display = 'block'
-        }
-    })
-}
-
-var pay_show = document.querySelectorAll('.pay-show ul li')
-var selected_pay = document.querySelector('.selected-pay')
-for (let i = 0; i < pay_show.length; i++) {
-    pay_show[i].addEventListener('click',function(){
-        selected_pay.style.top = parseInt(this.getAttribute('index'))*110 + 40 + '%'
-    })
-    
-}
-</script>
 </html>

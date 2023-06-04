@@ -1,6 +1,6 @@
 
 @media(min-width:499px){
-*{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
+*{padding: 0;margin: 0;}
 li{list-style: none;}
 a{text-decoration: none;}
 body{
@@ -132,7 +132,7 @@ nav ul li button[type=button] img{
 }
 }
 @media (min-width:1001px) {
-    *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
+    *{padding: 0;margin: 0;}
     li{list-style: none;}
     a{text-decoration: none;}
     body{

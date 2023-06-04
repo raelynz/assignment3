@@ -1,7 +1,7 @@
 
 
 @media (min-width:499px){
-*{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
+*{padding: 0;margin: 0;}
 li{list-style: none;}
 a{text-decoration: none;}
 body{
@@ -387,7 +387,7 @@ ul li:nth-child(2) .circle-dash::after,ul li:nth-child(3) .circle-dash::after {
 }
 }
 @media (min-width:1001px) {
-    *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
+    *{padding: 0;margin: 0;}
     li{list-style: none;}
     a{text-decoration: none;} 
     body{

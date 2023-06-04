@@ -28,7 +28,7 @@
     max-width: 20vw; 
     max-height: 20vw; 
   }
-  
+  /*search bar*/
   .search-bar {
     margin-left: 3%;
     margin-right: 5%;
@@ -41,13 +41,13 @@
     width: 60%;
     padding: 0 2%;
   }
-  
+  /*search bar text*/
   .search-bar::placeholder {
     display:flex;
     justify-content: flex-start;
     font-size: 1.5vh;
   }
-  
+  /*search bar text enter*/
   .search-input {
     border: none;
     background-color: transparent;
@@ -56,14 +56,14 @@
     flex: 1;
     outline: none;
   }
-  
+  /*search bar icon*/
   .search-icon {
     width: 2vh;
     height: 2vh;
     margin-right: 1vw;
     user-select: none;
   }
-  
+  /*icons*/
   nav .nav_icons {
     display: flex;
     justify-content: space-between;

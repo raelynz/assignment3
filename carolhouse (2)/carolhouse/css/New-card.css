@@ -1,4 +1,5 @@
 @import url("Index-for-entering.css");
+/*PC version*/
 @media (min-width: 1201px){
   body {
     display: flex;
@@ -7,7 +8,7 @@
     margin-left:35%;
     margin-right:35%;
   }
-
+/*Sections layout*/
   .Card_Num_Sec,
   .Card_Holder_Sec,
   .CVV_Sec,
@@ -16,7 +17,7 @@
       display: flex;
       flex-direction: column;
   }
-  
+/*Sections layout*/
   .Card_Number,
   .Card_Holder,
   .CVV,
@@ -26,7 +27,7 @@
       padding: 0.75vw;
       border-radius: 2vh;
   }
-  
+  /*Expire date*/
   .ED_Enter {
       display: flex;
       flex-direction: row;
@@ -42,11 +43,12 @@
   .ED2 {
       flex: 1;
   }
-  
+
+  /*Expire date layout*/
   .ED_Enter {
       flex: 2;
   }
-  
+  /*Button go back*/
 .NA_Button {
     display: flex;
     margin-top: 20%;
@@ -68,7 +70,7 @@
     color: #000000;
     width:auto;
   }
-  
+  /*Button continue*/
   .NA_Continue {
     width: 20%;
     padding-top: 1%;
@@ -82,7 +84,7 @@
     color: #FFFFFF;
   } 
 }
-
+/*ipad version*/
 @media (min-width:400px) and (max-width: 1200px){
   body {
     display: flex;
@@ -169,7 +171,7 @@
     color: #FFFFFF;
   } 
 }
-
+/*mobile version*/
 @media (max-width: 399px){
   body {
     display: flex;

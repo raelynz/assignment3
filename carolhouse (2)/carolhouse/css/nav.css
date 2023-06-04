@@ -1,3 +1,4 @@
+/*pc version*/
 @media (min-width: 1001px) {
   /*nav bar*/
   nav {
@@ -81,7 +82,7 @@
   }
   
 }
-
+/*ipad version*/
 @media (min-width:500px) and (max-width: 1000px){
   nav {
     height: 20%;
@@ -159,7 +160,7 @@
     width:70%;
   }
 }
-
+/*mobile version*/
 @media (max-width: 499px){
   nav {
     height: 20%;

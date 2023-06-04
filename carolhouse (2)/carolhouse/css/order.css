@@ -1,6 +1,6 @@
 /*pc version*/
 @media (min-width:1001px) {
-    *{padding: 0;margin: 0;}
+    *{padding: 0;margin: 0; font-size:2vh}
     li{list-style: none;}
     a{text-decoration: none;} 
     body{

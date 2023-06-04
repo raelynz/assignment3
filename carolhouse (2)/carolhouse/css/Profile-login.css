@@ -1,5 +1,7 @@
 @import url(Index-for-entering.css);
+/*PC version*/
 @media (min-width:1001px){
+  /*Spacing*/
   body {
     display: flex;
     justify-content: center;
@@ -15,11 +17,11 @@
     font-size: 2vh;
     line-height: 2.5vh;
   }
-
+  /*Login section*/
   .Login_Sec{
     margin-top:10%;
   }
-
+  /*Input text box*/
   input{
     background: #FFFFFF;
     border: 0.5px solid #000000;
@@ -28,11 +30,11 @@
     height:6.5vh;
     padding-left:2vh;
   }
-
+  /*Password section*/
   .Enter_Password{
     margin-top: 7.5%;
   }
-
+  /*Forgotten password*/
   .FP{
     padding-top:5vh;
     text-decoration: none;
@@ -43,7 +45,7 @@
     line-height: 5vh;
     color: grey;
   }
-
+  /*Continue button*/
   .Continue_Button{
     margin-top:7.5%;
     width:100%;
@@ -62,7 +64,7 @@
     line-height: 2.5vh;
     color:white;
   }
-
+  /*Sign up button*/
   .Sign_Up_Sec{
     display:flex;
     align-items:center;
@@ -90,7 +92,7 @@
     color:black;
   }
 }
-
+/*Ipad version*/
 @media (min-width:500px) and (max-width:1000px){
   body {
     display: flex;
@@ -182,7 +184,7 @@
     color:black;
   }
 }
-
+/*Phone version*/
 @media (max-width:499px){
   body {
     display: flex;

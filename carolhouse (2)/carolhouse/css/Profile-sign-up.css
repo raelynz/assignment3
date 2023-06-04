@@ -1,5 +1,7 @@
 @import url(Index-for-entering.css);
+/*pc version*/
 @media (min-width:1001px){
+  /*page layout*/
   body {
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@
   .Sign_Up_Enter{
     margin-top:5%;
   }
-
+  /*all text box*/
   input{
     background: #FFFFFF;
     border: 0.5px solid #000000;
@@ -20,11 +22,11 @@
     height:6.5vh;
     padding-left:2vh;
   }
-
+  /*spacing*/
   .Last_Name_Sec, .Email_Sec, .Password_Sec, .Continue_Button{
     margin-top:7.5%;
   }
-
+  /*button*/
   .Continue_Button{
     margin-top:10%;
     width:100%;
@@ -44,7 +46,7 @@
     color:white;
   }
 }
-
+/*ipad version*/
 @media (min-width:500px) and (max-width:1000px){
   body {
     display: flex;
@@ -90,7 +92,7 @@
     color:white;
   }
 }
-
+/*phone version*/
 @media (max-width:499px){
   body {
     display: flex;

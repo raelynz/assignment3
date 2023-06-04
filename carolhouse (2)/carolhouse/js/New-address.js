@@ -1,3 +1,4 @@
+/*Only one check box can be selected */
 document.addEventListener('DOMContentLoaded', function() {
     const checkboxes = document.querySelectorAll('.Checkoption');
   

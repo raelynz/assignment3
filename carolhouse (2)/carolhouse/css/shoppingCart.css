@@ -1,3 +1,4 @@
+/*pc version*/
 @media (min-width:1001px){
 li{list-style: none;}
 a{text-decoration: none;}
@@ -5,12 +6,13 @@ body{
     margin-top:5%;
     font-size: 20px;
 }
-
+/*remove spin button from buttons*/
 ::-webkit-inner-spin-button,
 .Item_Num::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+/*Title*/
 .selected-show{
     width: 100%;
     height: 20vh;
@@ -19,7 +21,7 @@ body{
     align-items: center;
 }
 .selected-show h1{
-    font-size: 52px;
+    font-size: 5vh;
 }
 .main-show{
     width: 90%;
@@ -49,6 +51,7 @@ body{
     font-weight: 400;
     font-size: 25px;
 }
+/*Text area*/
 .right textarea{
     width: 100%;
     margin-top: 1vw;
@@ -57,6 +60,7 @@ body{
 .title-right{
     margin-top: 1vw;
 }
+/*Shipping address*/
 .Shipping{
     width: 90%;
     height: 12vh;
@@ -97,6 +101,7 @@ body{
     height: 70%;
     object-fit: cover;
 }
+/*Payment method*/
 .tips{
     font-family: 'Inter' sans-serif;
     font-style: normal;
@@ -127,6 +132,7 @@ body{
     padding: 1vw 0vw;
     cursor: pointer;
 }
+/*Payment method img 1*/
 .pay-show ul li div:nth-child(1){
     width: 4vw;
     height: 4vw;
@@ -164,6 +170,7 @@ body{
     height: 30vh;
     margin-top: 6vh;
 }
+/*Total payment section (price)*/
 .details p{
     color: #6c6c6c83;
     position: relative;
@@ -192,6 +199,7 @@ body{
     width: 2vw;
     text-align: center;
 }
+/*Left hand side (products)*/
 .left ul li{
     display: flex;
     margin-bottom: 7vw;
@@ -206,12 +214,13 @@ body{
     font-size: 3.5vh;
     font-weight: 400;
 }
-
+/*Price for each product*/
 .price{
     color: #6c6c6c80;
     font-weight: 400;
     margin-top: 1vw;
 }
+/*Product info(size and color)*/
 .bottom-show{
     width: 20vw;
     display: flex;
@@ -275,7 +284,7 @@ body{
     border: 1px solid #333;
     border-radius: 1vw;
 }
-
+/*Buttons on product*/
 .user-operation{
     display:flex;
     flex-direction: row;
@@ -285,7 +294,7 @@ body{
     margin-right: 5vw;
     margin-bottom:9vw;
 }
-
+/*Product number*/
 .Item_Enter{
     display:flex;
     align-items: center;
@@ -303,7 +312,7 @@ body{
     height:auto;
     width:2vw;
 }
-
+/*Plus and minus icons*/
 .Minus , .Add{
     display:flex;
     align-items: center;
@@ -316,7 +325,7 @@ body{
     width:80%;
 }
 
-
+/*delete button*/
 .delete{
     width: 1.5vh;
     height: 1.5vh;
@@ -338,6 +347,7 @@ body{
     color: white;
 }
 }
+/*ipad version*/
 @media (min-width:500px) and (max-width:1000px){
     li{list-style: none;}
     a{text-decoration: none;}
@@ -693,7 +703,7 @@ body{
         color: white;
     }
 }
-
+/*phone version*/
 @media (max-width:499px){
     li{list-style: none;}
     a{text-decoration: none;}

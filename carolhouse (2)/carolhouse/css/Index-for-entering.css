@@ -1,4 +1,5 @@
 @media (min-width: 1001px){
+    /*button text*/
     h6{
         font-family: 'Inter';
         font-style: normal;
@@ -6,6 +7,7 @@
         font-size: 2.5vh;
         line-height: 2.5vh;
     }
+    /*Top heading*/
     h1{
     display:flex;
     justify-content:center;
@@ -17,7 +19,7 @@
     text-align: center;
     margin-top: 5vh;
 }
-
+/*Section heading*/
 h2{
     font-family: 'Inter', Sans-serif;
     font-style: normal;
@@ -25,7 +27,7 @@ h2{
     font-size: 2.5vh;
     line-height: 2.5vh;
 }
-
+/*Placeholder*/
 *::placeholder{
     font-family: 'Inter';
     font-style: normal;

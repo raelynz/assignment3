@@ -4,12 +4,13 @@ a{text-decoration: none;}
 body{
     font-size: 20px;
 }
-
+/*product section*/
 .banner{
     height: 40vw;
     display: flex;
     position: relative;
 }
+/*product image*/
 .banner img{
     width: 30vw;
     height: 30vw;
@@ -17,10 +18,12 @@ body{
     margin-left: 20vw;
     margin-top: 7.5vw;
 }
+/*product description*/
 .text{
     margin-top: 15vw;
     margin-left: 10vw;
 }
+/*craftmaster*/
 .text p:nth-child(1){
     font-family: 'Poppins';
     font-style: normal;
@@ -30,6 +33,7 @@ body{
     margin-bottom: 0;
     color: #8C8C8C;
 }
+/*Title*/
 .text h1:nth-child(2){
     font-family: 'Inter', sans-serif;
     font-style: bold;
@@ -40,6 +44,7 @@ body{
     color: #262626;
     margin-bottom:0;
 }
+/*Price*/
 .text p:nth-child(3){
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
@@ -62,6 +67,7 @@ body{
     bottom: 50%;
     left: 0;
 }
+/*add to cart button*/
 .banner div .button1{
     background-color: #A58172;
     border: 1px solid transparent;
@@ -119,6 +125,7 @@ body{
     bottom: 0;
     left: 25%;
 }
+/*product description*/
 .user-list{
     width: 70%;
     margin: 0 auto;
@@ -146,6 +153,7 @@ body{
 .user-list ul li img:nth-child(1){
     margin-right: .5vw;
 }
+/*product description drop*/
 .user-list ul li .drop{
     width: 2vw;
     height: 2vw;
@@ -157,6 +165,7 @@ body{
 .user-list ul li .drop img{
     transform: rotate(-180deg);
 }
+/*product ratiing*/
 .evaluate{
     width: 100%;
     height: 25vw;
@@ -270,6 +279,7 @@ body{
     left: 0;
     transform: translate(0,-50%);
 }
+/*product ratiing see more button*/
 .hr-show a{
     width: 10vw;
     height: 2vw;
@@ -291,6 +301,7 @@ body{
     object-fit: cover;
     margin-left: .3vw;
 }
+/*similar product*/
 .product{
     width: 90%;
     margin: 0 auto;
@@ -339,6 +350,7 @@ body{
     height: 20vh;
     object-fit: cover;
 }
+/*similar product--product*/
 .product ul li .caption{
     width: 100%;
     padding-left: 2vw;
@@ -377,6 +389,7 @@ body{
     position: relative;
     color: #6c6c6c54;
 }
+/*price*/
 .price span::after{
     content: "";
     width: 100%;
@@ -386,24 +399,6 @@ body{
     bottom: 40%;
     left: 0;
 }
-footer{
-    margin-top:10vh;
-    padding-top: 10vh;
-    height: 60vh;
-    background-color: black;
-   }
-   footer .Text{
-    margin: 0 auto;
-    display:flex;
-    width: 60%;
-    flex-direction:row;
-    justify-content: space-around;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5vh;
-    line-height: 2vh;
-    color:white;
-   }
 }
 
 @media (min-width:500px) and (max-width:1000px){

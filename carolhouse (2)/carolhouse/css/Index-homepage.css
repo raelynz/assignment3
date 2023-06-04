@@ -3,6 +3,7 @@ body{
 }
 
 @media (min-width: 1001px){
+  /*every see all text*/
 .See_All {
     margin-right:5%;
     background: none;
@@ -14,7 +15,7 @@ body{
     line-height: 30px;
     color: #8C8C8C;
     }
-
+/*Carolhouse*/
   h1 {
     font-family: 'Inter';
     font-style: normal;
@@ -26,7 +27,7 @@ body{
     margin-bottom: 15px;
     margin-left:10%;
   }
-  
+  /*Welcome to*/
   h2 {
     font-family: 'Inter';
     font-style: normal;
@@ -38,7 +39,7 @@ body{
     margin-bottom: 0;
     margin-left:10%;
   }
-  
+  /*Section heading*/
   h3 {
     font-family: 'Abhaya Libre';
     font-style: normal;

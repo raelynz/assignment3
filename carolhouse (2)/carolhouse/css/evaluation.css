@@ -361,7 +361,7 @@ footer{
    }
 
 
-@media (min-width:500px) and (max-width:1000px) {
+@media (min-width:499x)  {
 *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
 li{list-style: none;}
 a{text-decoration: none;}

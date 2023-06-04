@@ -1,4 +1,6 @@
+@media (min-width:1001px){
 *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
+
 li{list-style: none;}
 a{text-decoration: none;}
 body{

@@ -1,5 +1,4 @@
 @media (min-width:1001px){
-*{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
 
 li{list-style: none;}
 a{text-decoration: none;}
@@ -114,4 +113,5 @@ nav ul li button[type=button] img{
     height: 4vw;
     width: 10vw;
     padding: 0 5vw;
+}
 }

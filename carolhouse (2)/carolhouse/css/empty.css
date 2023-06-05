@@ -1,4 +1,6 @@
+
 @media (min-width:499px){
+ /*Phone*/
  
 *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
 li{list-style: none;}
@@ -23,6 +25,7 @@ header{
     height: 100%;
     object-fit: cover;
 }
+  /*Search bar*/
 .search{
     position: relative;
     display: flex;
@@ -53,6 +56,7 @@ input[type=text]:focus{
     left: .4vw;
     cursor: pointer;
 }
+  /*Navigation*/
 nav ul{
     height:6vh;
     width: 18vw;
@@ -77,6 +81,7 @@ nav ul li button[type=button] img{
 .selected-show h1{
     text-align: center;
 }
+  /*shopping cart description*/
 .shoping{
     width: 15vw;
     height: 15vw;
@@ -120,6 +125,7 @@ nav ul li button[type=button] img{
     padding: 5px 10vw;
 }
 }
+ /*pc version*/
 @media (min-width:1001px) {
     *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
 li{list-style: none;}

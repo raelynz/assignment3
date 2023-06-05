@@ -1,4 +1,5 @@
 /*pc version*/
+
 @media (min-width:1001px) {
     *{padding: 0;margin: 0;}
     li{list-style: none;}
@@ -72,6 +73,7 @@
     }    
 }
 /*mobile*/
+
 @media(max-width:499px){
 *{padding: 0;margin: 0;}
 li{list-style: none;}

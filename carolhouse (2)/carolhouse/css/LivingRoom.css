@@ -4,7 +4,15 @@ a{text-decoration: none;}
 body{
     font-size: 20px;
 }
-    
+a{
+    color:white;
+    text-decoration:none;
+}
+
+.button2 a{
+    color:black;
+    text-decoration:none;
+}
 /*product section*/
 .banner{
     height: 40vw;
@@ -98,6 +106,20 @@ body{
     margin-top: 1vw;
     line-height: 2vw;
     color: #333;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+.banner div .button3{
+    background-color: #765D52;
+    border: 1px solid transparent;
+    width: 10vw;
+    height: 2vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2vw;
+    color: white;
     border-radius: 1vw;
     cursor: pointer;
 }
@@ -408,7 +430,15 @@ body{
 @media (min-width:500px) and (max-width:1000px){
     li{list-style: none;}
     a{text-decoration: none;}
+    a{
+        color:white;
+        text-decoration:none;
+    }
     
+    .button2 a{
+        color:black;
+        text-decoration:none;
+    }
     .banner{
         margin-top:20%;
         height: 40vw;
@@ -486,8 +516,8 @@ body{
     .banner div .button2{
         border: 1px solid #333;
         background-color: transparent;
-        width: 10vw;
-        height: 2vw;
+        width: 15vw;
+        height: 4vw;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -495,6 +525,20 @@ body{
         margin-top: 1vw;
         line-height: 2vw;
         color: #333;
+        border-radius: 1vw;
+        cursor: pointer;
+    }
+    .banner div .button3{
+        background-color: #765D52;
+        border: 1px solid transparent;
+        width: 15vw;
+        height: 4vw;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        line-height: 2vw;
+        color: white;
         border-radius: 1vw;
         cursor: pointer;
     }
@@ -824,7 +868,15 @@ body{
 @media (max-width:499px){
     li{list-style: none;}
     a{text-decoration: none;}
+    a{
+        color:white;
+        text-decoration:none;
+    }
     
+    .button2 a{
+        color:black;
+        text-decoration:none;
+    }
     .banner{
         margin-top:35%;
         height: 40vw;
@@ -912,6 +964,20 @@ body{
         margin-top: 1vw;
         line-height: 2vw;
         color: #333;
+        border-radius: 3vw;
+        cursor: pointer;
+    }
+    .banner div .button3{
+        background-color: #765D52;
+        border: 1px solid transparent;
+        width: 30vw;
+        height: 9vw;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        line-height: 2vw;
+        color: white;
         border-radius: 3vw;
         cursor: pointer;
     }

@@ -4,12 +4,14 @@ a{text-decoration: none;}
 body{
     font-size: 20px;
 }
+    
 /*product section*/
 .banner{
     height: 40vw;
     display: flex;
     position: relative;
 }
+    
 /*product image*/
 .banner img{
     width: 30vw;
@@ -18,6 +20,7 @@ body{
     margin-left: 20vw;
     margin-top: 7.5vw;
 }
+    
 /*product description*/
 .text{
     margin-top: 15vw;
@@ -67,6 +70,7 @@ body{
     bottom: 50%;
     left: 0;
 }
+    
 /*add to cart button*/
 .banner div .button1{
     background-color: #A58172;

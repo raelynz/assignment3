@@ -1,5 +1,6 @@
 @media (min-width:499px) {
  /*Layout*/
+  /*Ipad*/
 *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
 li{list-style: none;}
 a{text-decoration: none;}
@@ -461,6 +462,247 @@ nav ul li button[type=button] img{
 .right-text .price{
     color:rgb(100, 52, 34);
     font-size: 24px;
+    margin-top: 2vw;
+}
+}
+
+
+@media (max-width:499px) {
+ /*Layout*/
+  /*Iphone*/
+*{padding:5;margin: 5;font-family:'inter';font-weight: bold;}
+li{list-style: none;}
+a{text-decoration: none;}
+body{
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+  align-items: center;
+}
+ 
+ /*Carolhouse logo*/
+.logo{
+    width: 23vw;
+    height: 6vh;
+    margin-left: 1vw;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search input[type=text]{
+    width: 42vw;
+    height: 4vh;
+    border-radius: 2vh;
+    border: 1px solid transparent;
+    background-color: #918e8e57;
+    color: #333;
+    font-weight: 100;
+    text-indent: 3.5em;
+    margin-right: 4vw;
+}
+input[type=text]:focus{
+    outline: none;
+}
+ /*Search icon*/
+.search button[type=button]{
+    background-image: url(../images/search.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    left: .4vw;
+    cursor: pointer;
+}
+ 
+ /*navigation icon*/
+nav ul{
+    height:6vh;
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li button[type=button]{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+nav ul li button[type=button] img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.selected-show{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected-show ul{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+.selected-show ul li{
+    box-shadow: 0px 0px 6px #8181815d;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.selected-show ul li button[type=button]{
+    width: 6vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.selected-show ul li button[type=button] img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-show{
+    width: 86%;
+    height: 200vh;
+    margin: 0 auto;
+    display: flex;
+}
+.left-show{
+    width: 24%;
+    height: 100%;
+}
+.right-show{
+    width: 80%;
+    height: 100%;
+    margin-left: 5vw;
+}
+.left-type-top{
+    display: flex;
+}
+.left-type-top img{
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+    transform: rotate(-90deg);
+    margin-top: 5px;
+    margin-right: .3vw;
+}
+.left-type ul{
+    width: 18vw;
+    font-size: 18px;
+    color: #727070;
+    display: none;
+    animation: drop .3s ease-in;
+}
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.left-type ul li{
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    margin-top: .5vh;
+    padding-left: .6vw;
+    box-sizing: border-box;
+    position: relative;
+}
+.left-type ul li span{
+    position: absolute;
+    right: 0;
+}
+.left-type ul li button{
+    background-image: url(../images/selected.png);
+    background-size: cover;
+    width: 2vw;
+    height: 2vw;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.left-type ul li label{
+    margin-left: .2vw;
+    padding: 0 .4vw;
+    font-size: 6px;
+}
+.selected-show h1{
+    font-weight: 100;
+    font-size: 30px;
+}
+.selected-show span{
+    font-weight: bold;
+}
+.right-show li{
+    display: flex;
+    position: relative;
+    margin-top: 4vw;
+}
+.right-show ul li:nth-child(1){
+    margin-top: 0;
+}
+.right-show ul li::after{
+    content: "";
+    height: .3vw;
+    width: 100%;
+    position: absolute;
+    bottom: -2vw;
+    background-color: #cecece28;
+}
+.right-show li img{
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+}
+.items{
+    cursor: pointer;
+}
+.left-pho{
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 7px rgba(99, 99, 99, 0.2);
+}
+.right-text{
+    padding-left: 2vw;
+    box-sizing: border-box;
+}
+.right-text h4{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 1vw;
+}
+.right-text .caption{
+    font-size: 16px;
+    color: #606060;
+    margin-top: 3vw;
+}
+.right-text .price{
+    color:rgb(100, 52, 34);
+    font-size: 16px;
     margin-top: 2vw;
 }
 }

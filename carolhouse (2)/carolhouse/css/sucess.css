@@ -1,30 +1,88 @@
 /*pc version*/
 
 @media (min-width:1001px) {
-    *{padding: 5;margin: 5;}
+    *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}
     li{list-style: none;}
     a{text-decoration: none;}
     body{
-        font-size: 7vh;
+        font-size: 20px;
+    }
+    header{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 23vw;
+        height: 6vh;
+        margin-left: 60px;
+        box-sizing: border-box;
+    }
+    .search{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .search input[type=text]{
+        width: 42vw;
+        height: 4vh;
+        border-radius: 2vh;
+        border: 1px solid transparent;
+        background-color: #918e8e57;
+        color: #333;
+        font-weight: 100;
+        text-indent: 3.5em;
+        margin-right: 4vw;
+    }
+    input[type=text]:focus{
+        outline: none;
+    }
+    .search button[type=button]{
+        background-image: url(../images/search.png);
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        background-color: transparent;
+        border: 1px solid transparent;
+        position: absolute;
+        left: .4vw;
+        cursor: pointer;
+    }
+    nav ul{
+        height:6vh;
+        width: 18vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+    nav ul li button[type=button]{
+        background-color: transparent;
+        border: 1px solid transparent;
+    }
+    nav ul li button[type=button] img{
+        width: 1.5vw;
+        height: 1.5vw;
     }
     .selected-show{
-        margin-top: 10h;
+        margin-top: 5vh;
     }
-    /*page logo*/
     .sucesss-logo{
-        width: 13vw;
-        height: 13vw;
-        margin: 0auto;
+        width: 15vw;
+        height: 15vw;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-content: center;
     }
     .selected-show img{
-        width: 100%;
-        height:auto;
+        width: 15vw;
+        height: 15vw;
         object-fit: cover;
     }
-    /*text*/
     .caption{
         width: 20vw;
         height: 20vw;
@@ -47,7 +105,6 @@
         font-weight: 200;
         font-size: 24px;
     }
-    /*buttons*/
     .button{
         width: 100%;
         height: 6vh;
@@ -59,15 +116,13 @@
         font-size: 16px;
         font-weight: 400;
     }
-    /*continue shopping*/
     .button1{
         margin-top: 5vh;
         background-color: #69342997;
     }
-    /*order detail*/
     .button2{
         color: #333;
-        margin-top: 2vh;
+        margin-top: 5vh;
         background-color: white;
         border: 2px solid #333;
     }    

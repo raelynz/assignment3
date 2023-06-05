@@ -4,7 +4,7 @@
     li{list-style: none;}
     a{text-decoration: none;} 
     body{
-        font-size: 20px;
+        font-size: 2vh;
     }
     .main-show{
         width: 90%;
@@ -30,12 +30,12 @@
     /*product*/
     .left h2:nth-child(3){
         margin-top: 1vw;
-        font-size: 28px;
+        font-size: 3.5vh;
         font-weight: 500;
     }
     .left h2:nth-child(5){
         margin-top: 1vw;
-        font-size: 28px;
+        font-size: 3.5vh;
         font-weight: 500;
     }
     .left .top,
@@ -72,7 +72,7 @@
         height: 2vw;
         line-height: 2vw;
         padding: 0 .5vw;
-        font-size: 14px;
+        font-size: 1.75vh;
         right: .2vw;
         top: 1vw;
         border-radius: .5vw;
@@ -80,7 +80,7 @@
     .caption p:nth-child(3){
         color: #6c6c6c95;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 2vh;
         margin-top: .5vw;
     }
     .caption p:nth-child(4){
@@ -107,13 +107,13 @@
     }
     .center p{
         font-weight: 500;
-        font-size: 14px;
+        font-size: 2vh;
     }
     .center div:nth-child(2){
         padding-left: 1vw;
     }
     .center h3{
-        font-size: 18px;
+        font-size: 2.25vh;
     }
     .center div:nth-child(2) p:nth-child(2){
         color: #6c6c6c95;
@@ -164,7 +164,7 @@
         position: relative;
     }
     .bottom ul li div:nth-child(2) p{
-        font-size: 16px;
+        font-size: 1.6vh;
         font-weight: 500;
     }
     .bottom ul li:nth-child(2){

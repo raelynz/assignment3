@@ -466,7 +466,7 @@ nav ul li button[type=button] img{
     margin-top: 2vw;
 }
 }
-
+/*phone version*/
 @media (max-width:499px) {
     /*Layout*/
    *{padding: 0;margin: 0;font-family:'inter';font-weight: bold;}

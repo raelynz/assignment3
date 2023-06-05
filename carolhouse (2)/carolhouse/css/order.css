@@ -1,6 +1,6 @@
 /*pc version*/
 @media (min-width:1001px) {
-    *{padding: 0;margin: 0; font-size:2vh}
+    *{padding: 0;margin: 0;}
     li{list-style: none;}
     a{text-decoration: none;} 
     body{
@@ -30,7 +30,7 @@
     /*product*/
     .left h2:nth-child(3){
         margin-top: 1vw;
-        font-size: 3.5vh;
+        font-size: 4.5vh;
         font-weight: 500;
     }
     .left h2:nth-child(5){
@@ -84,7 +84,7 @@
         margin-top: .5vw;
     }
     .caption p:nth-child(4){
-        font-size: 16px;
+        font-size: 2vh;
         margin-top: .5vw;
     }
     .caption p:nth-child(5){
@@ -316,7 +316,7 @@
     }
 }
 /*mobile version*/
-@media (min-width:499px){
+@media (min-width:500px) and (max-width:1000px){
 *{padding: 0;margin: 0;}
 li{list-style: none;}
 a{text-decoration: none;}

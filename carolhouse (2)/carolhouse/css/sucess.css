@@ -1,7 +1,7 @@
 /*pc version*/
 
 @media (min-width:1001px) {
-    *{padding: 10;margin: 10;font-family:'inter';font-weight: bold;}
+    *{padding: 10;margin: 10;}
     li{list-style: none;}
     a{text-decoration: none;}
     body{
@@ -62,7 +62,7 @@
     }
     .button2{
         color: #333;
-        margin-top: 5vh;
+        margin-top: 1vh;
         background-color: white;
         border: 2px solid #333;
     }    
@@ -73,47 +73,44 @@
 *{padding: 0;margin: 0;}
 li{list-style: none;}
 a{text-decoration: none;}
-body{
-    font-size: 10px;
-}
 
 .selected-show{
     margin-top: 20vh;
 }
 .sucesss-logo{
-    width: 25vw;
-    height: 25vw;
+    width: 35vw;
+    height: 35vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 .selected-show img{
-    width: 25vw;
-    height: 25vw;
+    width: 35vw;
+    height: 35vw;
     object-fit: cover;
 }
 .caption{
-    width: 20vw;
-    height: 20vw;
+    width: 80%;
+    height: 50vw;
     text-align: center;
     margin: 0 auto;
     margin-top: 2vw;
 }
 .caption h1{
-    font-size: 21px;
+    font-size: 4vh;
     font-weight: 400;
     margin-bottom: 2vw;
 }
 .caption p{
     color: #6c6c6cbd;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 2.5vh;
 }
 .caption p span{
     color: #333;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 2.5vh;
 }
 .button{
     width: 100%;
@@ -123,7 +120,7 @@ body{
     align-items: center;
     margin: 0 auto;
     color: white;
-    font-size: 8px;
+    font-size: 2vh;
     font-weight: 400;
 }
 .button1{

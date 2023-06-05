@@ -1,3 +1,4 @@
+/*remove overall underline and color for a element*/
 a{text-decoration: none;
     color:white;
 }
